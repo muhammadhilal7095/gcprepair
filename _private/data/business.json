@@ -1,0 +1,169 @@
+{
+  "domain": "https://gcprepair.dk",
+  "announcement": {
+    "enabled": true,
+    "text": "iPhone 18: Alt tilbehør er nu tilgængeligt",
+    "linkText": "Kontakt os",
+    "link": "our-contacts"
+  },
+  "campaign": {
+    "enabled": true,
+    "name": "Black Friday",
+    "percent": 20
+  },
+  "emails": [
+    "info@gcprepair.dk",
+    "gmc.repaircenter@gmail.com"
+  ],
+  "shops": [
+    {
+      "id": "greve",
+      "short": "Greve",
+      "name": "Greve Cell Phone & PC Repair",
+      "legalLine": "Zeenat Telecom",
+      "street": "Greve Midtby Center 6F",
+      "postal": "",
+      "city": "Greve Strand",
+      "phone": "+4591921420",
+      "phoneDisplay": "91 92 14 20",
+      "image": "shop-greve.jpg",
+      "reviewUrl": "https://g.co/kgs/HV1n9TB",
+      "reviewLabel": "Se os på Google",
+      "hours": [
+        [
+          "Mandag",
+          "10:00 – 18:00"
+        ],
+        [
+          "Tirsdag",
+          "10:00 – 18:00"
+        ],
+        [
+          "Onsdag",
+          "10:00 – 18:00"
+        ],
+        [
+          "Torsdag",
+          "10:00 – 18:00"
+        ],
+        [
+          "Fredag",
+          "10:00 – 19:00"
+        ],
+        [
+          "Lørdag",
+          "10:00 – 15:00"
+        ],
+        [
+          "Søndag",
+          "Lukket"
+        ]
+      ],
+      "social": [
+        [
+          "Facebook",
+          "https://www.facebook.com/Grevecellphone"
+        ],
+        [
+          "Instagram",
+          "https://www.instagram.com/grevecellphonepcrepair"
+        ]
+      ]
+    },
+    {
+      "id": "amager",
+      "short": "Amagerbro",
+      "name": "iTelefix",
+      "legalLine": "",
+      "street": "Amagerbrogade 144",
+      "postal": "2300",
+      "city": "København, Amagerbro",
+      "phone": "+4528342800",
+      "phoneDisplay": "28 34 28 00",
+      "image": "shop-itelefix.jpg",
+      "reviewUrl": "https://www.trustpilot.com/search?query=itelefix",
+      "reviewLabel": "Se os på Trustpilot",
+      "hours": [
+        [
+          "Mandag",
+          "10:00 – 18:00"
+        ],
+        [
+          "Tirsdag",
+          "10:00 – 18:00"
+        ],
+        [
+          "Onsdag",
+          "10:00 – 18:00"
+        ],
+        [
+          "Torsdag",
+          "10:00 – 18:00"
+        ],
+        [
+          "Fredag",
+          "10:00 – 18:00"
+        ],
+        [
+          "Lørdag",
+          "10:00 – 18:00"
+        ],
+        [
+          "Søndag",
+          "12:00 – 18:00"
+        ]
+      ],
+      "social": [
+        [
+          "Facebook",
+          "https://www.facebook.com/ITELEFIX"
+        ],
+        [
+          "Instagram",
+          "https://www.instagram.com/itelefix"
+        ],
+        [
+          "TikTok",
+          "https://www.tiktok.com/@itelefix.amagerbr"
+        ]
+      ]
+    }
+  ],
+  "youtube": "https://youtu.be/pDMNRgrt-SM",
+  "reviews": [
+    [
+      "Hisham Ammar",
+      "Great shop in greve"
+    ],
+    [
+      "Helen Andersen",
+      "Meget glad (God service)"
+    ],
+    [
+      "Hasan Hniedovskyi",
+      "Very Good!!!!Bbest of the best service."
+    ],
+    [
+      "Marianne Jensen",
+      "Meget glad tak"
+    ],
+    [
+      "Ismail Messi1235",
+      "Very good shop must visit"
+    ],
+    [
+      "Rasmus Thomsen",
+      "De er de bedste"
+    ],
+    [
+      "Inger Breinholt",
+      "Meget tilfreds og glad"
+    ]
+  ],
+  "integrations": {
+    "ga4": "",
+    "facebookPixel": "",
+    "googleVerification": "",
+    "bingVerification": ""
+  }
+}

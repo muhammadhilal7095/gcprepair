@@ -1,0 +1,243 @@
+{
+  "categories": [
+    {
+      "id": "mobiltelefoner",
+      "name": "Mobiltelefoner",
+      "icon": "device",
+      "description": "Telefoner fra blandt andre Apple, Samsung og OnePlus."
+    },
+    {
+      "id": "computere",
+      "name": "Computere",
+      "icon": "monitor",
+      "description": "Bærbare og stationære computere."
+    },
+    {
+      "id": "covers",
+      "name": "Covers",
+      "icon": "device",
+      "description": "Beskyt din telefon mod ridser og stød."
+    },
+    {
+      "id": "skaermbeskyttelse",
+      "name": "Skærmbeskyttelse",
+      "icon": "shield",
+      "description": "Beskyttelse til din skærm."
+    },
+    {
+      "id": "opladere-og-kabler",
+      "name": "Opladere og kabler",
+      "icon": "zap",
+      "description": "Opladere og kabler til din enhed."
+    }
+  ],
+  "products": [
+    {
+      "id": "apple-iphone-16-pro-max",
+      "name": "Apple iPhone 16 Pro Max",
+      "category": "mobiltelefoner",
+      "price": null,
+      "image": "apple-iphone-16-pro-max.jpg",
+      "description": "",
+      "inStock": true
+    },
+    {
+      "id": "apple-iphone-16",
+      "name": "Apple iPhone 16",
+      "category": "mobiltelefoner",
+      "price": null,
+      "image": "apple-iphone-16.jpg",
+      "description": "",
+      "inStock": true
+    },
+    {
+      "id": "apple-iphone-15-pro",
+      "name": "Apple iPhone 15 Pro",
+      "category": "mobiltelefoner",
+      "price": null,
+      "image": "apple-iphone-15-pro.jpg",
+      "description": "",
+      "inStock": true
+    },
+    {
+      "id": "samsung-galaxy-s25-ultra",
+      "name": "Samsung Galaxy S25 Ultra",
+      "category": "mobiltelefoner",
+      "price": null,
+      "image": "samsung-galaxy-s25-ultra.jpg",
+      "description": "",
+      "inStock": true
+    },
+    {
+      "id": "samsung-galaxy-s24-ultra",
+      "name": "Samsung Galaxy S24 Ultra",
+      "category": "mobiltelefoner",
+      "price": null,
+      "image": "samsung-galaxy-s24-ultra.jpg",
+      "description": "",
+      "inStock": true
+    },
+    {
+      "id": "samsung-galaxy-a54",
+      "name": "Samsung Galaxy A54",
+      "category": "mobiltelefoner",
+      "price": null,
+      "image": "samsung-galaxy-a54.jpg",
+      "description": "",
+      "inStock": true
+    },
+    {
+      "id": "oneplus-15",
+      "name": "OnePlus 15",
+      "category": "mobiltelefoner",
+      "price": null,
+      "image": "oneplus-15.jpg",
+      "description": "",
+      "inStock": true
+    },
+    {
+      "id": "apple-macbook-pro-16-m1-pro",
+      "name": "Apple MacBook Pro 16\" M1 Pro",
+      "category": "computere",
+      "price": null,
+      "image": "macbook-pro-16-m1-pro.jpg",
+      "description": "",
+      "inStock": true
+    },
+    {
+      "id": "apple-macbook-pro-13-m2",
+      "name": "Apple MacBook Pro 13\" M2",
+      "category": "computere",
+      "price": null,
+      "image": "macbook-pro-13-m2.jpg",
+      "description": "",
+      "inStock": true
+    },
+    {
+      "id": "hp-victus-16",
+      "name": "HP Victus 16",
+      "category": "computere",
+      "price": null,
+      "image": "hp-victus-16.jpg",
+      "description": "",
+      "inStock": true
+    },
+    {
+      "id": "asus-tuf-gaming",
+      "name": "ASUS TUF Gaming",
+      "category": "computere",
+      "price": null,
+      "image": "asus-tuf-gaming.jpg",
+      "description": "",
+      "inStock": true
+    },
+    {
+      "id": "microsoft-surface-laptop-studio",
+      "name": "Microsoft Surface Laptop Studio",
+      "category": "computere",
+      "price": null,
+      "image": "surface-laptop-studio.jpg",
+      "description": "",
+      "inStock": true
+    },
+    {
+      "id": "station-r-gaming-pc",
+      "name": "Stationær gaming-pc",
+      "category": "computere",
+      "price": null,
+      "image": "gaming-pc.png",
+      "description": "",
+      "inStock": true
+    },
+    {
+      "id": "iphone-18-cover",
+      "name": "iPhone 18 cover",
+      "category": "covers",
+      "price": null,
+      "image": null,
+      "description": "",
+      "inStock": true
+    },
+    {
+      "id": "iphone-18-pro-cover",
+      "name": "iPhone 18 Pro cover",
+      "category": "covers",
+      "price": null,
+      "image": null,
+      "description": "",
+      "inStock": true
+    },
+    {
+      "id": "iphone-18-pro-max-cover",
+      "name": "iPhone 18 Pro Max cover",
+      "category": "covers",
+      "price": null,
+      "image": null,
+      "description": "",
+      "inStock": true
+    },
+    {
+      "id": "iphone-18-skaermbeskyttelse",
+      "name": "iPhone 18 skærmbeskyttelse",
+      "category": "skaermbeskyttelse",
+      "price": null,
+      "image": null,
+      "description": "",
+      "inStock": true
+    },
+    {
+      "id": "iphone-18-pro-skaermbeskyttelse",
+      "name": "iPhone 18 Pro skærmbeskyttelse",
+      "category": "skaermbeskyttelse",
+      "price": null,
+      "image": null,
+      "description": "",
+      "inStock": true
+    },
+    {
+      "id": "iphone-18-pro-max-skaermbeskyttelse",
+      "name": "iPhone 18 Pro Max skærmbeskyttelse",
+      "category": "skaermbeskyttelse",
+      "price": null,
+      "image": null,
+      "description": "",
+      "inStock": true
+    },
+    {
+      "id": "iphone-18-oplader",
+      "name": "iPhone 18 oplader",
+      "category": "opladere-og-kabler",
+      "price": null,
+      "image": null,
+      "description": "",
+      "inStock": true
+    },
+    {
+      "id": "iphone-18-kabel",
+      "name": "iPhone 18 opladerkabel",
+      "category": "opladere-og-kabler",
+      "price": null,
+      "image": null,
+      "description": "",
+      "inStock": true
+    },
+    {
+      "id": "alogic-ultra-mini-usb",
+      "name": "Alogic Ultra Mini USB",
+      "category": "opladere-og-kabler",
+      "price": null,
+      "image": "alogic-usb.jpg",
+      "description": "",
+      "inStock": true
+    },
+    {
+      "id": "ailink-aluminium-connector",
+      "name": "Ailink Aluminium Connector",
+      "category": "opladere-og-kabler",
+      "price": null,
+      "image": "ailink-connector.jpg",
+      "description": "",
+      "inStock": true
+    }
+  ]
+}

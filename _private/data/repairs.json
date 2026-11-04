@@ -1,0 +1,8704 @@
+{
+ "iphone-reparation": [
+  {
+   "id": "iphone-duo-foldbar",
+   "name": "iPhone Duo (foldbar)",
+   "image": "apple-iphone-duo-fold-530x530-hq.jpg",
+   "services": [
+    {
+     "name": "Batteri (original kapacitet)",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Face ID",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Bagcover (kun glas)",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Bagcover (inkl. ramme) (original)",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Mikrofon",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Kamera (for)",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Kamera (bag)",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Kameralinse (glas)",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Bundhøjtaler",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Tænd/sluk-knap",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Lydløs-knap",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Volume-knap",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Software",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Vandskade",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "IC-lodning",
+     "price": null,
+     "time": null,
+     "note": null
+    }
+   ]
+  },
+  {
+   "id": "iphone-18-pro-max",
+   "name": "iPhone 18 Pro Max",
+   "image": "apple-iphone-red-530x530-1.jpg",
+   "services": [
+    {
+     "name": "Skærm (original)",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Face ID",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Bagcover (kun glas)",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Bagcover (inkl. ramme) (original)",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Mikrofon",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Kamera (for)",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Kameralinse (glas)",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Bundhøjtaler",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Software",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Vandskade",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Fejlsøgning",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "IC-lodning",
+     "price": null,
+     "time": null,
+     "note": null
+    }
+   ]
+  },
+  {
+   "id": "iphone-18-pro",
+   "name": "iPhone 18 Pro",
+   "image": "apple-iphone-blue-530x530-1.jpg",
+   "services": [
+    {
+     "name": "Skærm (original)",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Batteri (original kapacitet)",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Face ID",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Bagcover (inkl. ramme) (original)",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Mikrofon",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Kamera (bag)",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Kameralinse (glas)",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Volume-knap",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Vibrator",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Software",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Fejlsøgning",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "IC-lodning",
+     "price": null,
+     "time": null,
+     "note": null
+    }
+   ]
+  },
+  {
+   "id": "iphone-18",
+   "name": "iPhone 18",
+   "image": "iphone-18-123.jpg",
+   "services": [
+    {
+     "name": "Batteri (original kapacitet)",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Face ID",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Bagcover (kun glas)",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Bagcover (inkl. ramme) (original)",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Mikrofon",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Kamera (for)",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Kamera (bag)",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Kameralinse (glas)",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Bundhøjtaler",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Tænd/sluk-knap",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Lydløs-knap",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Volume-knap",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Software",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Vandskade",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "IC-lodning",
+     "price": null,
+     "time": null,
+     "note": null
+    }
+   ]
+  },
+  {
+   "id": "iphone-17-pro-max",
+   "name": "iPhone 17 Pro Max",
+   "image": "iphone-17-pro-max.jpg",
+   "services": [
+    {
+     "name": "Skærm (original)",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Face ID",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Bagcover (kun glas)",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Bagcover (inkl. ramme) (original)",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Mikrofon",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Kamera (for)",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Kameralinse (glas)",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Bundhøjtaler",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Software",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Vandskade",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Fejlsøgning",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "IC-lodning",
+     "price": null,
+     "time": null,
+     "note": null
+    }
+   ]
+  },
+  {
+   "id": "iphone-17-pro",
+   "name": "iPhone 17 Pro",
+   "image": "chatgpt-image-sep-22-2026-10-43-39-pm-1024x1024.jpg",
+   "services": [
+    {
+     "name": "Skærm (original)",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Batteri (original kapacitet)",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Face ID",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Bagcover (inkl. ramme) (original)",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Mikrofon",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Kamera (bag)",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Kameralinse (glas)",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Volume-knap",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Vibrator",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Software",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Fejlsøgning",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "IC-lodning",
+     "price": null,
+     "time": null,
+     "note": null
+    }
+   ]
+  },
+  {
+   "id": "iphone-17-plus",
+   "name": "iPhone 17 Plus",
+   "image": "iphone-17-plus.jpg",
+   "services": [
+    {
+     "name": "Batteri (original kapacitet)",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Face ID",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Bagcover (kun glas)",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Bagcover (inkl. ramme) (original)",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Mikrofon",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Kamera (for)",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Kamera (bag)",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Kameralinse (glas)",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Bundhøjtaler",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Tænd/sluk-knap",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Lydløs-knap",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Volume-knap",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Software",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Vandskade",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "IC-lodning",
+     "price": null,
+     "time": null,
+     "note": null
+    }
+   ]
+  },
+  {
+   "id": "iphone-17",
+   "name": "iPhone 17",
+   "image": "iphone-17-123-1.jpg",
+   "services": [
+    {
+     "name": "Skærm (original)",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Face ID",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Bagcover (kun glas)",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Bagcover (inkl. ramme) (original)",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Mikrofon",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Kamera (for)",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Kameralinse (glas)",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Bundhøjtaler",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Software",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Vandskade",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Fejlsøgning",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "IC-lodning",
+     "price": null,
+     "time": null,
+     "note": null
+    }
+   ]
+  },
+  {
+   "id": "iphone-16-pro-max",
+   "name": "iPhone 16 Pro Max",
+   "image": "iphone-16-pro-max-123.jpg",
+   "services": [
+    {
+     "name": "Skærm (original)",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Batteri (original kapacitet)",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Face ID",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Bagcover (inkl. ramme) (original)",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Mikrofon",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Kamera (bag)",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Kameralinse (glas)",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Volume-knap",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Vibrator",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Software",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Fejlsøgning",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "IC-lodning",
+     "price": null,
+     "time": null,
+     "note": null
+    }
+   ]
+  },
+  {
+   "id": "iphone-16-pro",
+   "name": "iPhone 16 Pro",
+   "image": "iphone-16-pro-123.jpg",
+   "services": [
+    {
+     "name": "Batteri (original kapacitet)",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Face ID",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Bagcover (kun glas)",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Bagcover (inkl. ramme) (original)",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Mikrofon",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Kamera (for)",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Kamera (bag)",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Kameralinse (glas)",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Bundhøjtaler",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Tænd/sluk-knap",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Lydløs-knap",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Volume-knap",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Software",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Vandskade",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "IC-lodning",
+     "price": null,
+     "time": null,
+     "note": null
+    }
+   ]
+  },
+  {
+   "id": "iphone-16-plus",
+   "name": "iPhone 16 Plus",
+   "image": "iphone-16-plus-123.jpg",
+   "services": [
+    {
+     "name": "Skærm (original)",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Face ID",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Bagcover (kun glas)",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Bagcover (inkl. ramme) (original)",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Mikrofon",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Kamera (for)",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Kameralinse (glas)",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Bundhøjtaler",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Software",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Vandskade",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Fejlsøgning",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "IC-lodning",
+     "price": null,
+     "time": null,
+     "note": null
+    }
+   ]
+  },
+  {
+   "id": "iphone-16",
+   "name": "iPhone 16",
+   "image": "iphone-16-123.jpg",
+   "services": [
+    {
+     "name": "Skærm (original)",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Batteri (original kapacitet)",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Face ID",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Bagcover (inkl. ramme) (original)",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Mikrofon",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Kamera (bag)",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Kameralinse (glas)",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Volume-knap",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Vibrator",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Software",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Fejlsøgning",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "IC-lodning",
+     "price": null,
+     "time": null,
+     "note": null
+    }
+   ]
+  },
+  {
+   "id": "iphone-15-pro-max",
+   "name": "iPhone 15 Pro Max",
+   "image": "iphone-15-pro-max-reparation.jpg",
+   "services": [
+    {
+     "name": "Batteri (original kapacitet)",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Face ID",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Bagcover (kun glas)",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Bagcover (inkl. ramme) (original)",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Mikrofon",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Kamera (for)",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Kamera (bag)",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Kameralinse (glas)",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Bundhøjtaler",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Tænd/sluk-knap",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Lydløs-knap",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Volume-knap",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Software",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Vandskade",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "IC-lodning",
+     "price": null,
+     "time": null,
+     "note": null
+    }
+   ]
+  },
+  {
+   "id": "iphone-15-pro",
+   "name": "iPhone 15 Pro",
+   "image": "iphone-15-pro-reparation.jpg",
+   "services": [
+    {
+     "name": "Skærm (original)",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Face ID",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Bagcover (kun glas)",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Bagcover (inkl. ramme) (original)",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Mikrofon",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Kamera (for)",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Kameralinse (glas)",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Bundhøjtaler",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Software",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Vandskade",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Fejlsøgning",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "IC-lodning",
+     "price": null,
+     "time": null,
+     "note": null
+    }
+   ]
+  },
+  {
+   "id": "iphone-15-plus",
+   "name": "iPhone 15 Plus",
+   "image": "iphone-15-plus-reparation.jpg",
+   "services": [
+    {
+     "name": "Skærm (original)",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Batteri (original kapacitet)",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Face ID",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Bagcover (inkl. ramme) (original)",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Mikrofon",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Kamera (bag)",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Kameralinse (glas)",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Volume-knap",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Vibrator",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Software",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Fejlsøgning",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "IC-lodning",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Kamera (for)",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Kamera (bag) (original)",
+     "price": null,
+     "time": null,
+     "note": null
+    }
+   ]
+  },
+  {
+   "id": "iphone-15",
+   "name": "iPhone 15",
+   "image": "iphone-15-reparation.jpg",
+   "services": [
+    {
+     "name": "Skærm (original)",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Face ID",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Bagcover (inkl. ramme) (original)",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Mikrofon",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Kamera (for)",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Kameralinse (glas)",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Ørehøjtaler",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Vibrator",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Software",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "IC-lodning",
+     "price": null,
+     "time": null,
+     "note": null
+    }
+   ]
+  },
+  {
+   "id": "iphone-14-pro-max",
+   "name": "iPhone 14 Pro Max",
+   "image": "iphone-14-pro-max-reparation.jpg",
+   "services": [
+    {
+     "name": "Ørehøjtaler",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Ladestik",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Mikrofon",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Skærm (OEM OLED)",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Skærm (original)",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Batteri (original kapacitet)",
+     "price": null,
+     "time": null,
+     "note": null
+    }
+   ]
+  },
+  {
+   "id": "iphone-14-pro",
+   "name": "iPhone 14 Pro",
+   "image": "iphone-14-max-reparation.jpg",
+   "services": [
+    {
+     "name": "Diagnose",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Skærm (Grade A)",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Skærm",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Software",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Vandskade",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Fejlsøgning",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "IC-lodning",
+     "price": null,
+     "time": null,
+     "note": null
+    }
+   ]
+  },
+  {
+   "id": "iphone-se-3rd-gen-2022",
+   "name": "iPhone SE 3rd Gen 2022",
+   "image": "iphone-8.jpg",
+   "services": [
+    {
+     "name": "Software",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Vandskade",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Fejlsøgning",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "IC-lodning",
+     "price": null,
+     "time": null,
+     "note": null
+    }
+   ]
+  },
+  {
+   "id": "iphone-13-plus",
+   "name": "iPhone 13 Plus",
+   "image": "iphone-13-reparation.jpg",
+   "services": [
+    {
+     "name": "Batteri (original kapacitet)",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Face ID",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Bagcover (kun glas)",
+     "price": null,
+     "time": null,
+     "note": null
+    }
+   ]
+  },
+  {
+   "id": "iphone-13-pro",
+   "name": "iPhone 13 Pro",
+   "image": "iphone-13-pro-reparation.jpg",
+   "services": [
+    {
+     "name": "Lydløs-knap (funktion)",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Softwareopdatering",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Diagnose ved væskeskade",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Ladestik",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Mikrofon",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Kamera (for)",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Kamera (bag)",
+     "price": null,
+     "time": null,
+     "note": null
+    }
+   ]
+  },
+  {
+   "id": "iphone-13",
+   "name": "iPhone 13",
+   "image": "iphone-13-reparation.jpg",
+   "services": [
+    {
+     "name": "Diagnose",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Skærm (Grade A)",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Skærm",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Skærm (original kvalitet)",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Software",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Vandskade",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Fejlsøgning",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "IC-lodning",
+     "price": null,
+     "time": null,
+     "note": null
+    }
+   ]
+  },
+  {
+   "id": "iphone-13-mini",
+   "name": "iPhone 13 mini",
+   "image": "iphone-13-mini-reparation.jpg",
+   "services": [
+    {
+     "name": "Ørehøjtaler",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Ladestik",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Mikrofon",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Kamera (for)",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Kamera (bag)",
+     "price": null,
+     "time": null,
+     "note": null
+    }
+   ]
+  },
+  {
+   "id": "iphone-12-pro-max",
+   "name": "iPhone 12 Pro Max",
+   "image": "iphone-12-pro-max-reparation.jpg",
+   "services": [
+    {
+     "name": "Diagnose",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Skærm (Grade A)",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Skærm",
+     "price": null,
+     "time": null,
+     "note": null
+    }
+   ]
+  },
+  {
+   "id": "iphone-12-pro",
+   "name": "iPhone 12 Pro",
+   "image": "iphone-12-pro.jpg",
+   "services": [
+    {
+     "name": "Ladestik",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Mikrofon",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Tænd/sluk-knap (funktion)",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Volume-knap (funktion)",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Software",
+     "price": "899 kr.",
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Fejlsøgning",
+     "price": "899 kr.",
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Vandskade",
+     "price": "999 kr.",
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "IC-lodning",
+     "price": "999 kr.",
+     "time": null,
+     "note": null
+    }
+   ]
+  },
+  {
+   "id": "iphone-12-mini",
+   "name": "iPhone 12 mini",
+   "image": "iphone-12-mini.jpg",
+   "services": [
+    {
+     "name": "Face ID",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Bagcover (kun glas)",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Bagcover (inkl. ramme)",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Ladestik",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Mikrofon",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Batteri (original kvalitet)",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Kamera (bagkamera)",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Bagkamera glas (ikke kamera)",
+     "price": null,
+     "time": null,
+     "note": null
+    }
+   ]
+  },
+  {
+   "id": "iphone-12",
+   "name": "iPhone 12",
+   "image": "iphone-12-pro.jpg",
+   "services": [
+    {
+     "name": "Ørehøjtaler",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Ladestik",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Mikrofon",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Kamera (for)",
+     "price": null,
+     "time": null,
+     "note": null
+    }
+   ]
+  },
+  {
+   "id": "iphone-se-2nd-gen-2020",
+   "name": "iPhone SE 2nd Gen 2020",
+   "image": "iphone-8-1.jpg",
+   "services": []
+  },
+  {
+   "id": "iphone-11-pro-max",
+   "name": "iPhone 11 Pro Max",
+   "image": "iphone-11-pro-max.jpg",
+   "services": [
+    {
+     "name": "Diagnose",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Skærm (Grade A)",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Skærm",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Tænd/sluk-knap",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Lydløs-knap",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Volume-knap",
+     "price": null,
+     "time": null,
+     "note": null
+    }
+   ]
+  },
+  {
+   "id": "iphone-11-pro",
+   "name": "iPhone 11 Pro",
+   "image": "iphone-11-pro.jpg",
+   "services": [
+    {
+     "name": "Ørehøjtaler",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Tænd/sluk-knap (funktion)",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Volume-knap (funktion)",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Tænd/sluk-knap",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Lydløs-knap",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Volume-knap",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Vibrator",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Software",
+     "price": null,
+     "time": null,
+     "note": null
+    }
+   ]
+  },
+  {
+   "id": "iphone-11",
+   "name": "iPhone 11",
+   "image": "iphone-11.jpg",
+   "services": [
+    {
+     "name": "Ladestik",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Ørehøjtaler",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Tænd/sluk-knap (funktion)",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Kameralinse (glas)",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Bundhøjtaler",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Tænd/sluk-knap",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Lydløs-knap",
+     "price": null,
+     "time": null,
+     "note": null
+    }
+   ]
+  },
+  {
+   "id": "iphone-xs-max",
+   "name": "iPhone Xs Max",
+   "image": "iphone-xs-max.jpg",
+   "services": [
+    {
+     "name": "Skærm (Grade A)",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Skærm (OLED)",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Skærm (original kvalitet)",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Bundhøjtaler",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Ørehøjtaler",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Tænd/sluk-knap",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Lydløs-knap",
+     "price": null,
+     "time": null,
+     "note": null
+    }
+   ]
+  },
+  {
+   "id": "iphone-xs",
+   "name": "iPhone Xs",
+   "image": "iphone-xs.jpg",
+   "services": [
+    {
+     "name": "Ladestik",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Mikrofon",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Kamera (for)",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Kamera (bag)",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Kameralinse (glas)",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Diagnose",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Skærm (Grade A)",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Skærm (OLED)",
+     "price": null,
+     "time": null,
+     "note": null
+    }
+   ]
+  },
+  {
+   "id": "iphone-x",
+   "name": "iPhone X",
+   "image": "iphone-x.jpg",
+   "services": [
+    {
+     "name": "Diagnose",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Skærm (Grade A)",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Skærm (OLED)",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Skærm (original kvalitet)",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Vibrator",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Software",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Vandskade",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Fejlsøgning",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "IC-lodning",
+     "price": null,
+     "time": null,
+     "note": null
+    }
+   ]
+  },
+  {
+   "id": "iphone-xr",
+   "name": "iPhone Xr",
+   "image": "iphone-xr.jpg",
+   "services": [
+    {
+     "name": "Ladestik",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Mikrofon",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Kamera (for)",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Kamera (bag)",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Kameralinse (glas)",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Skærm (Grade A)",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Skærm",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Skærm (original kvalitet)",
+     "price": null,
+     "time": null,
+     "note": null
+    }
+   ]
+  },
+  {
+   "id": "iphone-8",
+   "name": "iPhone 8",
+   "image": "iphone-8-plus.jpg",
+   "services": [
+    {
+     "name": "Ladestik",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Mikrofon",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Kamera (for)",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Kamera (bag)",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Kameralinse (glas)",
+     "price": null,
+     "time": null,
+     "note": null
+    }
+   ]
+  },
+  {
+   "id": "iphone-7-plus",
+   "name": "iPhone 7 Plus",
+   "image": "iphone-7-plus.jpg",
+   "services": [
+    {
+     "name": "Batteri",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Batteri (original kvalitet)",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Ladestik",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Skærm (kopi, bedste kvalitet)",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Skærm (original Ref.)",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Skærm (original)",
+     "price": null,
+     "time": null,
+     "note": null
+    }
+   ]
+  },
+  {
+   "id": "iphone-7",
+   "name": "iPhone 7",
+   "image": "iphone-7.jpg",
+   "services": [
+    {
+     "name": "Volume-knap (funktion)",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Lydløs-knap (funktion)",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Softwareopdatering",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Diagnose ved væskeskade",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Skærm (original Ref.)",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Skærm (original)",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Batteri (original kapacitet)",
+     "price": null,
+     "time": null,
+     "note": null
+    }
+   ]
+  },
+  {
+   "id": "iphone-6s-plus",
+   "name": "iPhone 6s PLUS",
+   "image": "iphone-6s-plus.jpg",
+   "services": [
+    {
+     "name": "Skærm (kopi, bedste kvalitet)",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Skærm (original)",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Batteri",
+     "price": null,
+     "time": null,
+     "note": null
+    }
+   ]
+  },
+  {
+   "id": "iphone-6-plus",
+   "name": "iPhone 6 PLUS",
+   "image": "iphone-6-plus.jpg",
+   "services": [
+    {
+     "name": "Skærm (original kvalitet)",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Skærmbeskyttelse (inkl. montering)",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Skærmbeskyttelse 3D (Full fit) (inkl. montering)",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Batteri (original)",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Home-knap",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Bagcover (inkl. ramme)",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Ladestik",
+     "price": null,
+     "time": null,
+     "note": null
+    }
+   ]
+  },
+  {
+   "id": "iphone-6",
+   "name": "iPhone 6",
+   "image": "iphone-6.jpg",
+   "services": [
+    {
+     "name": "Skærm",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Skærm (original kvalitet)",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Skærmbeskyttelse (inkl. montering)",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Skærmbeskyttelse 3D (Full fit) (inkl. montering)",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Vibrator",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Software",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Vandskade",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Fejlsøgning",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "IC-lodning",
+     "price": null,
+     "time": null,
+     "note": null
+    }
+   ]
+  },
+  {
+   "id": "iphone-5s",
+   "name": "iPhone 5s",
+   "image": "iphone-5s.jpg",
+   "services": [
+    {
+     "name": "Skærm",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Skærm (original kvalitet)",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Skærmbeskyttelse (inkl. montering)",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Kamera (for)",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Kamera (bag)",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Kameralinse (glas)",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Bundhøjtaler",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Ørehøjtaler",
+     "price": null,
+     "time": null,
+     "note": null
+    }
+   ]
+  },
+  {
+   "id": "iphone-5",
+   "name": "iPhone 5",
+   "image": "iphone-5.jpg",
+   "services": [
+    {
+     "name": "Kameralinse (glas)",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Bundhøjtaler",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Ørehøjtaler",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Tænd/sluk-knap",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Batteri (original kvalitet)",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Bagcover (sort / hvid)",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Home-knap (funktion)",
+     "price": null,
+     "time": null,
+     "note": null
+    }
+   ]
+  },
+  {
+   "id": "iphone-4s",
+   "name": "iPhone 4s",
+   "image": "iphone-4s.jpg",
+   "services": [
+    {
+     "name": "Kameralinse (glas)",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Bundhøjtaler",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Ørehøjtaler",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Skærm",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Skærmbeskyttelse (inkl. montering)",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Bagdæksel (sort / hvid)",
+     "price": null,
+     "time": null,
+     "note": null
+    }
+   ]
+  }
+ ],
+ "ipad-reparation": [
+  {
+   "id": "ipad-pro-13-m5",
+   "name": "iPad Pro 13 (M5)",
+   "image": "apple-ipad-pro-13-530x530-1.jpg",
+   "services": [
+    {
+     "name": "Ladestik",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Mikrofon",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Kamera (for)",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Kamera (bag)",
+     "price": null,
+     "time": null,
+     "note": null
+    }
+   ]
+  },
+  {
+   "id": "ipad-air-13-m4",
+   "name": "iPad Air 13 (M4)",
+   "image": "apple-ipad-air-13-530x530-1.jpg",
+   "services": [
+    {
+     "name": "Skærm (original)",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Batteri (original)",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Face ID",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "3G-antenne",
+     "price": null,
+     "time": null,
+     "note": null
+    }
+   ]
+  },
+  {
+   "id": "ipad-a16",
+   "name": "iPad (A16)",
+   "image": "apple-ipad-a16-530x530-1.jpg",
+   "services": [
+    {
+     "name": "WiFi-antenne",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Bagcover (inkl. ramme)",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Mikrofon",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Kamera (for)",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Kamera (bag)",
+     "price": null,
+     "time": null,
+     "note": null
+    }
+   ]
+  },
+  {
+   "id": "ipad-pro-12-9-6th-gen",
+   "name": "iPad Pro 12.9 6th Gen",
+   "image": "ipad-pro-12-9-6th-gen-reparation.jpg",
+   "services": [
+    {
+     "name": "Ladestik",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Mikrofon",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Kamera (for)",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Kamera (bag)",
+     "price": null,
+     "time": null,
+     "note": null
+    }
+   ]
+  },
+  {
+   "id": "ipad-pro-12-9-5th-gen",
+   "name": "iPad Pro 12.9 5th Gen",
+   "image": "pad-pro-12-9-5th-gen-reparation.jpg",
+   "services": [
+    {
+     "name": "Skærm (original)",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Batteri (original)",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Face ID",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "3G-antenne",
+     "price": null,
+     "time": null,
+     "note": null
+    }
+   ]
+  },
+  {
+   "id": "ipad-pro-11-4th-gen",
+   "name": "iPad Pro 11 4th Gen",
+   "image": "ipad-pro-11-4nd-gen-reparation.jpg",
+   "services": [
+    {
+     "name": "WiFi-antenne",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Bagcover (inkl. ramme)",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Mikrofon",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Kamera (for)",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Kamera (bag)",
+     "price": null,
+     "time": null,
+     "note": null
+    }
+   ]
+  },
+  {
+   "id": "ipad-pro-11-3rd-gen",
+   "name": "iPad Pro 11 3rd Gen",
+   "image": "ipad-pro-11-3nd-gen-reparation.jpg",
+   "services": [
+    {
+     "name": "Bagcover (inkl. ramme)",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Ladestik",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Mikrofon",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Kamera (for)",
+     "price": null,
+     "time": null,
+     "note": null
+    }
+   ]
+  },
+  {
+   "id": "ipad-pro-12-9-4th-gen",
+   "name": "iPad Pro 12.9 4th Gen",
+   "image": "ipad-pro-12-9-4th-gen-reparation.jpg",
+   "services": [
+    {
+     "name": "Volume-knap",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Vibrator",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Software",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Vandskade",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Fejlsøgning",
+     "price": null,
+     "time": null,
+     "note": null
+    }
+   ]
+  },
+  {
+   "id": "ipad-pro-12-9-3rd-gen",
+   "name": "iPad Pro 12.9 3rd Gen",
+   "image": "ipad-pro-12-9-3rd-gen-reparation.jpg",
+   "services": [
+    {
+     "name": "Software",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Vandskade",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Fejlsøgning",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "IC-lodning",
+     "price": null,
+     "time": null,
+     "note": null
+    }
+   ]
+  },
+  {
+   "id": "ipad-pro-12-9-2nd-gen",
+   "name": "iPad Pro 12.9 2nd Gen",
+   "image": "ipad-pro-12-9-2nd-gen-reparation.jpg",
+   "services": [
+    {
+     "name": "Skærm (original)",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Batteri (original)",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Home-knap",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "3G-antenne",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Jackstik",
+     "price": null,
+     "time": null,
+     "note": null
+    }
+   ]
+  },
+  {
+   "id": "ipad-pro-12-9-1st-gen",
+   "name": "iPad Pro 12.9 1st Gen",
+   "image": "ipad-pro-12-9-1st-gen-reparation.jpg",
+   "services": [
+    {
+     "name": "Ladestik",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Mikrofon",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Kamera (for)",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Kamera (bag)",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Kameralinse (glas)",
+     "price": null,
+     "time": null,
+     "note": null
+    }
+   ]
+  },
+  {
+   "id": "ipad-pro-10-5",
+   "name": "iPad Pro 10.5",
+   "image": "ipad-pro10-5-reparation.jpg",
+   "services": [
+    {
+     "name": "Ladestik",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Mikrofon",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Kamera (for)",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Kamera (bag)",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Kameralinse (glas)",
+     "price": null,
+     "time": null,
+     "note": null
+    }
+   ]
+  },
+  {
+   "id": "ipad-pro-11-2nd-gen",
+   "name": "iPad Pro 11 2nd Gen",
+   "image": "ipad-pro-11-2nd-gen-reparation.jpg",
+   "services": [
+    {
+     "name": "Skærm (original)",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Batteri (original)",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Home-knap",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "3G-antenne",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Jackstik",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "WiFi-antenne",
+     "price": null,
+     "time": null,
+     "note": null
+    }
+   ]
+  },
+  {
+   "id": "ipad-pro-11",
+   "name": "iPad Pro 11",
+   "image": "ipad-pro-11-reparation.jpg",
+   "services": [
+    {
+     "name": "Tænd/sluk-knap",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Lydløs-knap",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Volume-knap",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Vibrator",
+     "price": null,
+     "time": null,
+     "note": null
+    }
+   ]
+  },
+  {
+   "id": "ipad-pro-9-7",
+   "name": "iPad Pro 9.7",
+   "image": "ipad-pro-9-7-reparation.jpg",
+   "services": [
+    {
+     "name": "3G-antenne",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Jackstik",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "WiFi-antenne",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Bagcover (inkl. ramme)",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Ladestik",
+     "price": null,
+     "time": null,
+     "note": null
+    }
+   ]
+  },
+  {
+   "id": "ipad-air-5",
+   "name": "iPad Air 5",
+   "image": "ipad-air-4-10-9-reparation.jpg",
+   "services": [
+    {
+     "name": "Batteri (original)",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Home-knap",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "3G-antenne",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Jackstik",
+     "price": null,
+     "time": null,
+     "note": null
+    }
+   ]
+  },
+  {
+   "id": "ipad-air-4",
+   "name": "iPad Air 4",
+   "image": "ipad-air-4-10-9-reparation-1.jpg",
+   "services": [
+    {
+     "name": "Ladestik",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Mikrofon",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Kamera (for)",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Kamera (bag)",
+     "price": null,
+     "time": null,
+     "note": null
+    }
+   ]
+  },
+  {
+   "id": "ipad-air-3-10-5",
+   "name": "iPad Air 3 10.5",
+   "image": "ipad-air-3-10-5-reparation.jpg",
+   "services": [
+    {
+     "name": "Kameralinse (glas)",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Bundhøjtaler",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Tænd/sluk-knap",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Lydløs-knap",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Volume-knap",
+     "price": null,
+     "time": null,
+     "note": null
+    }
+   ]
+  }
+ ],
+ "mac-reparation": [
+  {
+   "id": "macbook-pro-16-inch-m5-pro-2026",
+   "name": "MacBook Pro 16 inch ( M5 Pro ) 2026",
+   "image": "macbook-pro-13-2016-2017-reparation.jpg",
+   "services": [
+    {
+     "name": "Højttaler",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Fjern kode (u. data tab)",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Slå firmwareadgangskode fra",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Virus-/malwarefjernelse",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Backup af data",
+     "price": null,
+     "time": null,
+     "note": null
+    }
+   ]
+  },
+  {
+   "id": "macbook-air-15-inch-m5-2026",
+   "name": "MacBook Air 15 inch ( M5 ) 2026",
+   "image": "macbook-pro-13-touch-2016-2017-reparation-2.jpg",
+   "services": [
+    {
+     "name": "Batteri",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "macOS-softwareinstallation",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Tastatur",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Trackpad",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Ladestik",
+     "price": null,
+     "time": null,
+     "note": null
+    }
+   ]
+  },
+  {
+   "id": "macbook-neo-a18-pro-2026",
+   "name": "MacBook Neo ( A18 Pro ) 2026",
+   "image": "macbook-pro-16-2020-reparation-1.jpg",
+   "services": [
+    {
+     "name": "Fejlsøgning",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Skærm (original, brugt)",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Skærm (original, ny)",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Batteri",
+     "price": null,
+     "time": null,
+     "note": null
+    }
+   ]
+  },
+  {
+   "id": "macbook-pro-16-inch-m1-2021",
+   "name": "MacBook Pro 16 inch ( M1 ) 2021",
+   "image": "macbook-pro-16-2020-reparation.jpg",
+   "services": [
+    {
+     "name": "Højttaler",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Fjern kode (u. data tab)",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Slå firmwareadgangskode fra",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Virus-/malwarefjernelse",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Backup af data",
+     "price": null,
+     "time": null,
+     "note": null
+    }
+   ]
+  },
+  {
+   "id": "macbook-pro-13-inch-m1-2021",
+   "name": "MacBook Pro 13 inch ( M1 ) 2021",
+   "image": "macbook-pro-13-touch-2016-2017-reparation-2.jpg",
+   "services": [
+    {
+     "name": "Batteri",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "macOS-softwareinstallation",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Tastatur",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Trackpad",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Ladestik",
+     "price": null,
+     "time": null,
+     "note": null
+    }
+   ]
+  },
+  {
+   "id": "macbook-pro-13-inch-m1-2020",
+   "name": "MacBook Pro 13 inch ( M1 ) 2020",
+   "image": "macbook-pro-13-touch-2016-2017-reparation-2-1.jpg",
+   "services": [
+    {
+     "name": "Fejlsøgning",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Skærm (original, brugt)",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Skærm (original, ny)",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Batteri",
+     "price": null,
+     "time": null,
+     "note": null
+    }
+   ]
+  },
+  {
+   "id": "macbook-pro-17-inch-2009-2011",
+   "name": "MacBook Pro 17 inch 2009-2011",
+   "image": "macbook-pro-17-2009-2011-reparation.jpg",
+   "services": [
+    {
+     "name": "Trackpad",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Ladestik",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "WiFi-Modul",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Blæser",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Højttaler",
+     "price": null,
+     "time": null,
+     "note": null
+    }
+   ]
+  },
+  {
+   "id": "macbook-pro-16-inch-2020",
+   "name": "MacBook Pro 16 inch 2020",
+   "image": "macbook-pro-16-2020-reparation-1.jpg",
+   "services": [
+    {
+     "name": "Fejlsøgning",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Skærm (original)",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Batteri",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Tastatur",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Trackpad",
+     "price": null,
+     "time": null,
+     "note": null
+    }
+   ]
+  },
+  {
+   "id": "macbook-pro-15-inch-2018-2019",
+   "name": "MacBook Pro 15 inch 2018-2019",
+   "image": "macbook-pro-15-2016-2017-reparation-1.jpg",
+   "services": [
+    {
+     "name": "Virus-/malwarefjernelse",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Backup af data",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Vandskade",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "IC-lodning",
+     "price": null,
+     "time": null,
+     "note": null
+    }
+   ]
+  },
+  {
+   "id": "macbook-pro-15-inch-2016-2017",
+   "name": "MacBook Pro 15 inch 2016-2017",
+   "image": "macbook-pro-15-2016-2017-reparation.jpg",
+   "services": [
+    {
+     "name": "Fejlsøgning",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Skærm (original)",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Batteri",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Tastatur",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Trackpad",
+     "price": null,
+     "time": null,
+     "note": null
+    }
+   ]
+  },
+  {
+   "id": "macbook-pro-15-inch-2012-2015",
+   "name": "MacBook Pro 15 inch 2012-2015",
+   "image": "macbook-pro-15-2012-2015-reparation.jpg",
+   "services": [
+    {
+     "name": "Tastatur",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Trackpad",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Ladestik",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "WiFi-Modul",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Blæser",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Højttaler",
+     "price": null,
+     "time": null,
+     "note": null
+    }
+   ]
+  },
+  {
+   "id": "macbook-pro-15-inch-2009-2012",
+   "name": "MacBook Pro 15 inch 2009-2012",
+   "image": "macbook-pro-15-2009-2012-reparation.jpg",
+   "services": [
+    {
+     "name": "Blæser",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Højttaler",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Fjern kode (u. data tab)",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Slå firmwareadgangskode fra",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Batteri",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "macOS-softwareinstallation",
+     "price": null,
+     "time": null,
+     "note": null
+    }
+   ]
+  },
+  {
+   "id": "macbook-pro-13-inch-2020",
+   "name": "MacBook Pro 13 inch 2020",
+   "image": "macbook-pro-13-touch-2016-2017-reparation-2-2.jpg",
+   "services": [
+    {
+     "name": "macOS-softwareinstallation",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Virus-/malwarefjernelse",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Backup af data",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Vandskade",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "IC-lodning",
+     "price": null,
+     "time": null,
+     "note": null
+    }
+   ]
+  },
+  {
+   "id": "macbook-pro-13-touch-2016-2017",
+   "name": "MacBook Pro 13 Touch 2016-2017",
+   "image": "macbook-pro-13-touch-2016-2017-reparation.jpg",
+   "services": [
+    {
+     "name": "Skærm (original, brugt)",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Skærm (original, ny)",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Batteri",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Tastatur",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Trackpad",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Ladestik",
+     "price": null,
+     "time": null,
+     "note": null
+    }
+   ]
+  },
+  {
+   "id": "macbook-pro-13-inch-2016-2017",
+   "name": "MacBook Pro 13 inch 2016-2017",
+   "image": "macbook-pro-13-2016-2017-reparation.jpg",
+   "services": [
+    {
+     "name": "Tastatur",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Trackpad",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Ladestik",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "WiFi-Modul",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Blæser",
+     "price": null,
+     "time": null,
+     "note": null
+    }
+   ]
+  },
+  {
+   "id": "macbook-pro-13-inch-late-2013-2015",
+   "name": "MacBook Pro 13 inch Late 2013-2015",
+   "image": "macbook-pro-13-late-2013-2015-reparation-1.jpg",
+   "services": [
+    {
+     "name": "Vandskade",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "IC-lodning",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Harddisk-udskiftning",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "128 GB SSD-disk",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "256 GB SSD-disk",
+     "price": null,
+     "time": null,
+     "note": null
+    }
+   ]
+  },
+  {
+   "id": "macbook-pro-13-inch-2012-early-2013",
+   "name": "MacBook Pro 13 inch 2012-Early 2013",
+   "image": "macbook-pro-13-2009-2012-reparation-1.jpg",
+   "services": [
+    {
+     "name": "Skærm (original, brugt)",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Skærm (original, ny)",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Batteri",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Tastatur",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Trackpad",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Ladestik",
+     "price": null,
+     "time": null,
+     "note": null
+    }
+   ]
+  }
+ ],
+ "watch": [
+  {
+   "id": "apple-watch-series-12-46mm",
+   "name": "Apple Watch Series 12 46mm",
+   "image": "apple-watch-series-12-46mm.jpg",
+   "services": [
+    {
+     "name": "Batteri",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Software",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Fejlsøgning",
+     "price": null,
+     "time": null,
+     "note": null
+    }
+   ]
+  },
+  {
+   "id": "apple-watch-series-11-46mm",
+   "name": "Apple Watch Series 11 46mm",
+   "image": "apple-watch-series-12-46mm.jpg",
+   "services": [
+    {
+     "name": "Skærm (original)",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Batteri",
+     "price": null,
+     "time": null,
+     "note": null
+    }
+   ]
+  },
+  {
+   "id": "apple-watch-ultra-4-49mm",
+   "name": "Apple Watch Ultra 4 49mm",
+   "image": "apple-watch-ultra-4-49mm.jpg",
+   "services": [
+    {
+     "name": "Skærm (original)",
+     "price": "2499 kr.",
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Batteri",
+     "price": "599 kr.",
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Software",
+     "price": "199 kr.",
+     "time": null,
+     "note": null
+    }
+   ]
+  },
+  {
+   "id": "apple-watch-se-3-44mm",
+   "name": "Apple Watch SE 3 44mm",
+   "image": "apple-watch-se-3-44mm.jpg",
+   "services": [
+    {
+     "name": "Batteri",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Software",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Fejlsøgning",
+     "price": null,
+     "time": null,
+     "note": null
+    }
+   ]
+  },
+  {
+   "id": "apple-watch-ultra-3-49mm",
+   "name": "Apple Watch Ultra 3 49mm",
+   "image": "apple-watch-ultra-3-49mm.jpg",
+   "services": [
+    {
+     "name": "Skærm (original)",
+     "price": "2499 kr.",
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Batteri",
+     "price": "599 kr.",
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Software",
+     "price": "199 kr.",
+     "time": null,
+     "note": null
+    }
+   ]
+  },
+  {
+   "id": "apple-watch-5-44mm",
+   "name": "Apple Watch 5 44mm",
+   "image": "apple-watch-5-44.jpg",
+   "services": [
+    {
+     "name": "Batteri",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Software",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Fejlsøgning",
+     "price": null,
+     "time": null,
+     "note": null
+    }
+   ]
+  },
+  {
+   "id": "apple-watch-5-40mm",
+   "name": "Apple Watch 5 40mm",
+   "image": "apple-watch-5-40.jpg",
+   "services": [
+    {
+     "name": "Skærm (original)",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Batteri",
+     "price": null,
+     "time": null,
+     "note": null
+    }
+   ]
+  },
+  {
+   "id": "apple-watch-4-44mm",
+   "name": "Apple Watch 4 44mm",
+   "image": "apple-watch-4-44.jpg",
+   "services": [
+    {
+     "name": "Skærm (original)",
+     "price": "2499 kr.",
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Batteri",
+     "price": "599 kr.",
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Software",
+     "price": "199 kr.",
+     "time": null,
+     "note": null
+    }
+   ]
+  },
+  {
+   "id": "apple-watch-4-40mm",
+   "name": "Apple Watch 4 40mm",
+   "image": "apple-watch-4-40.jpg",
+   "services": [
+    {
+     "name": "Software",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Fejlsøgning",
+     "price": null,
+     "time": null,
+     "note": null
+    }
+   ]
+  },
+  {
+   "id": "apple-watch-3-42mm",
+   "name": "Apple Watch 3 42mm",
+   "image": "apple-watch-3-42.jpg",
+   "services": [
+    {
+     "name": "Skærm (original)",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Batteri",
+     "price": null,
+     "time": null,
+     "note": null
+    }
+   ]
+  },
+  {
+   "id": "apple-watch-3-38mm",
+   "name": "Apple Watch 3 38mm",
+   "image": "apple-watch-3-38.jpg",
+   "services": [
+    {
+     "name": "Batteri",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Software",
+     "price": null,
+     "time": null,
+     "note": null
+    }
+   ]
+  },
+  {
+   "id": "apple-watch-2-42mm",
+   "name": "Apple Watch 2 42mm",
+   "image": "apple-watch-2-42.jpg",
+   "services": [
+    {
+     "name": "Software",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Fejlsøgning",
+     "price": null,
+     "time": null,
+     "note": null
+    }
+   ]
+  },
+  {
+   "id": "apple-watch-2-38mm",
+   "name": "Apple Watch 2 38mm",
+   "image": "apple-watch-2-38.jpg",
+   "services": [
+    {
+     "name": "Skærm (original)",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Batteri",
+     "price": null,
+     "time": null,
+     "note": null
+    }
+   ]
+  },
+  {
+   "id": "apple-watch-1-42mm",
+   "name": "Apple Watch 1 42mm",
+   "image": "apple-watch-1-42.jpg",
+   "services": [
+    {
+     "name": "Batteri",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Software",
+     "price": null,
+     "time": null,
+     "note": null
+    }
+   ]
+  }
+ ],
+ "samsung-reparation": [
+  {
+   "id": "samsung-s26-ultra",
+   "name": "Samsung S26 Ultra",
+   "image": "samsung-s26-ultra-530x530-1.jpg",
+   "services": [
+    {
+     "name": "Bagcover (original)",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Batteri (original)",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Skærm (original)",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Fjern Google-konto",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Batteri",
+     "price": null,
+     "time": null,
+     "note": null
+    }
+   ]
+  },
+  {
+   "id": "samsung-s26-plus",
+   "name": "Samsung S26 Plus",
+   "image": "samsung-s24-ultra.jpg",
+   "services": [
+    {
+     "name": "Software",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Vandskade",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Fejlsøgning",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Skærm (original)",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Skærm + bagcover",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Bagcover (original)",
+     "price": null,
+     "time": null,
+     "note": null
+    }
+   ]
+  },
+  {
+   "id": "samsung-s25-ultra",
+   "name": "Samsung S25 Ultra",
+   "image": "samsung-s26-ultra-530x530-1.jpg",
+   "services": [
+    {
+     "name": "Ladestik (original)",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Diagnose – bliver fratrukket ved reparation",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Fjern Google-konto",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Batteri",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Bagcover",
+     "price": null,
+     "time": null,
+     "note": null
+    }
+   ]
+  },
+  {
+   "id": "samsung-s25-plus",
+   "name": "Samsung S25 Plus",
+   "image": "samsung-s25-plus.jpg",
+   "services": [
+    {
+     "name": "Bagcover (original)",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Batteri (original)",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Skærm (original)",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Fjern Google-konto",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Batteri",
+     "price": null,
+     "time": null,
+     "note": null
+    }
+   ]
+  },
+  {
+   "id": "samsung-s25-edge",
+   "name": "Samsung S25 Edge",
+   "image": "samsung-s25-edge.jpg",
+   "services": [
+    {
+     "name": "Software",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Vandskade",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Fejlsøgning",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Skærm (original)",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Skærm + bagcover",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Bagcover (original)",
+     "price": null,
+     "time": null,
+     "note": null
+    }
+   ]
+  },
+  {
+   "id": "samsung-s24-ultra",
+   "name": "Samsung S24 Ultra",
+   "image": "samsung-s24-ultra.jpg",
+   "services": [
+    {
+     "name": "Ladestik (original)",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Diagnose – bliver fratrukket ved reparation",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Fjern Google-konto",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Batteri",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Bagcover",
+     "price": null,
+     "time": null,
+     "note": null
+    }
+   ]
+  },
+  {
+   "id": "samsung-s23-ultra",
+   "name": "Samsung S23 Ultra",
+   "image": "samsung-s23-ultra-reparation.jpg",
+   "services": [
+    {
+     "name": "Bagcover (original)",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Batteri (original)",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Skærm (original)",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Fjern Google-konto",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Batteri",
+     "price": null,
+     "time": null,
+     "note": null
+    }
+   ]
+  },
+  {
+   "id": "samsung-s23-plus",
+   "name": "Samsung S23 Plus",
+   "image": "samsung-s23-plus-reparation.jpg",
+   "services": [
+    {
+     "name": "Software",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Vandskade",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Fejlsøgning",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Skærm (original)",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Skærm + bagcover",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Bagcover (original)",
+     "price": null,
+     "time": null,
+     "note": null
+    }
+   ]
+  },
+  {
+   "id": "samsung-s23",
+   "name": "Samsung S23",
+   "image": "samsung-s23-reparation.jpg",
+   "services": [
+    {
+     "name": "Ladestik (original)",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Diagnose – bliver fratrukket ved reparation",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Fjern Google-konto",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Batteri",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Bagcover",
+     "price": null,
+     "time": null,
+     "note": null
+    }
+   ]
+  },
+  {
+   "id": "samsung-s22-ultra",
+   "name": "Samsung S22 Ultra",
+   "image": "samsung-s22-ultra-reparation.jpg",
+   "services": [
+    {
+     "name": "Skærm (original)",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Fjern Google-konto",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Batteri (original)",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Bagcover (original)",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Ladestik (original)",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Diagnose – bliver fratrukket ved reparation",
+     "price": null,
+     "time": null,
+     "note": null
+    }
+   ]
+  },
+  {
+   "id": "samsung-s22-plus",
+   "name": "Samsung S22 Plus",
+   "image": "samsung-s22-plus-reparation.jpg",
+   "services": [
+    {
+     "name": "Bagcover (original)",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Batteri (original)",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Ladestik (original)",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Software",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Vandskade",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Fejlsøgning",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "IC-lodning",
+     "price": null,
+     "time": null,
+     "note": null
+    }
+   ]
+  },
+  {
+   "id": "samsung-s22",
+   "name": "Samsung S22",
+   "image": "samsung-s22-reparation.jpg",
+   "services": [
+    {
+     "name": "Fjern Google-konto",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Batteri (original)",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Bagcover (original)",
+     "price": null,
+     "time": null,
+     "note": null
+    }
+   ]
+  },
+  {
+   "id": "samsung-s21-fe",
+   "name": "Samsung S21 FE",
+   "image": "samsung-s21-fe-reparation.jpg",
+   "services": [
+    {
+     "name": "Batteri (original)",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Ladestik (original)",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Skærm (original)",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Fjern Google-konto",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Batteri",
+     "price": null,
+     "time": null,
+     "note": null
+    }
+   ]
+  },
+  {
+   "id": "samsung-s21-ultra",
+   "name": "Samsung S21 Ultra",
+   "image": "samsung-s21-ultra-reparation.jpg",
+   "services": [
+    {
+     "name": "Batteri (kopi)",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Batteri (original)",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Skærm + bagcover",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Bagcover (original)",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Ladestik (original)",
+     "price": null,
+     "time": null,
+     "note": null
+    }
+   ]
+  },
+  {
+   "id": "samsung-s21-plus",
+   "name": "Samsung S21 Plus",
+   "image": "samsung-s21-plus-reparation.jpg",
+   "services": [
+    {
+     "name": "Batteri (original)",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Ladestik (original)",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Diagnose – bliver fratrukket ved reparation",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Software",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Vandskade",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Fejlsøgning",
+     "price": null,
+     "time": null,
+     "note": null
+    }
+   ]
+  },
+  {
+   "id": "samsung-s21",
+   "name": "Samsung S21",
+   "image": "samsung-s21-reparation.jpg",
+   "services": [
+    {
+     "name": "Ladestik",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Software",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Vandskade",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Fejlsøgning",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Skærm + bagcover",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Bagcover (original)",
+     "price": null,
+     "time": null,
+     "note": null
+    }
+   ]
+  },
+  {
+   "id": "samsung-s20-fe",
+   "name": "Samsung S20 FE",
+   "image": "s20-fe.jpg",
+   "services": [
+    {
+     "name": "Batteri (original)",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Ladestik (original)",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Diagnose – bliver fratrukket ved reparation",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Vandskade",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Fejlsøgning",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "IC-lodning",
+     "price": null,
+     "time": null,
+     "note": null
+    }
+   ]
+  },
+  {
+   "id": "samsung-s20-ultra",
+   "name": "Samsung S20 Ultra",
+   "image": "s20-ultrarep.jpg",
+   "services": [
+    {
+     "name": "Skærm (original)",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Fjern Google-konto",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Batteri",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Diagnose – bliver fratrukket ved reparation",
+     "price": null,
+     "time": null,
+     "note": null
+    }
+   ]
+  },
+  {
+   "id": "samsung-s20-plus",
+   "name": "Samsung S20 Plus",
+   "image": "s20rep.jpg",
+   "services": [
+    {
+     "name": "Bagcover (original)",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Batteri (original)",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Ladestik (original)",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Fjern Google-konto",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Batteri",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Bagcover",
+     "price": null,
+     "time": null,
+     "note": null
+    }
+   ]
+  },
+  {
+   "id": "samsung-s20",
+   "name": "Samsung S20",
+   "image": "s20rep-1.jpg",
+   "services": [
+    {
+     "name": "Skærm (original)",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Fjern Google-konto",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Batteri",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Bagcover (original)",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Batteri (original)",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Ladestik (original)",
+     "price": null,
+     "time": null,
+     "note": null
+    }
+   ]
+  },
+  {
+   "id": "samsung-s10e",
+   "name": "Samsung S10e",
+   "image": "s10erep.jpg",
+   "services": [
+    {
+     "name": "Ladestik",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Software",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Vandskade",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Fejlsøgning",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "IC-lodning",
+     "price": null,
+     "time": null,
+     "note": null
+    }
+   ]
+  },
+  {
+   "id": "samsung-s10-lite",
+   "name": "Samsung S10 lite",
+   "image": "samsung-s10-lite-reparation.jpg",
+   "services": [
+    {
+     "name": "Batteri",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Bagcover",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Ladestik",
+     "price": null,
+     "time": null,
+     "note": null
+    }
+   ]
+  },
+  {
+   "id": "samsung-s10-plus",
+   "name": "Samsung S10 Plus",
+   "image": "s10plusrep.jpg",
+   "services": [
+    {
+     "name": "Software",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Vandskade",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Fejlsøgning",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Batteri",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Bagcover",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Ladestik",
+     "price": null,
+     "time": null,
+     "note": null
+    }
+   ]
+  },
+  {
+   "id": "samsung-s10",
+   "name": "Samsung S10",
+   "image": "s10rep.jpg",
+   "services": [
+    {
+     "name": "Vandskade",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Fejlsøgning",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "IC-lodning",
+     "price": null,
+     "time": null,
+     "note": null
+    }
+   ]
+  },
+  {
+   "id": "samsung-s9-plus",
+   "name": "Samsung S9 Plus",
+   "image": "s9rep.jpg",
+   "services": [
+    {
+     "name": "Fejlsøgning",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "IC-lodning",
+     "price": null,
+     "time": null,
+     "note": null
+    }
+   ]
+  },
+  {
+   "id": "samsung-s9",
+   "name": "Samsung S9",
+   "image": "s9rep-1.jpg",
+   "services": [
+    {
+     "name": "Bagcover",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Ladestik",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Software",
+     "price": null,
+     "time": null,
+     "note": null
+    }
+   ]
+  },
+  {
+   "id": "samsung-s8-plus",
+   "name": "Samsung S8 Plus",
+   "image": "s8rep.jpg",
+   "services": [
+    {
+     "name": "Fjern Google-konto",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Batteri",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Bagcover",
+     "price": null,
+     "time": null,
+     "note": null
+    }
+   ]
+  },
+  {
+   "id": "samsung-s8",
+   "name": "Samsung S8",
+   "image": "s8rep-1.jpg",
+   "services": [
+    {
+     "name": "Bagcover",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Ladestik",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Software",
+     "price": null,
+     "time": null,
+     "note": null
+    }
+   ]
+  },
+  {
+   "id": "samsung-s7-edge",
+   "name": "Samsung S7 Edge",
+   "image": "s7edge-rep.jpg",
+   "services": [
+    {
+     "name": "Fjern Google-konto",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Batteri",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Bagcover",
+     "price": null,
+     "time": null,
+     "note": null
+    }
+   ]
+  },
+  {
+   "id": "samsung-s7",
+   "name": "Samsung S7",
+   "image": "s7rep.jpg",
+   "services": [
+    {
+     "name": "Skærm (original)",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Fjern Google-konto",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Batteri",
+     "price": null,
+     "time": null,
+     "note": null
+    }
+   ]
+  },
+  {
+   "id": "samsung-s6-edge-plus",
+   "name": "Samsung S6 Edge Plus",
+   "image": "s6edgerep.jpg",
+   "services": [
+    {
+     "name": "Vandskade",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Fejlsøgning",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "IC-lodning",
+     "price": null,
+     "time": null,
+     "note": null
+    }
+   ]
+  },
+  {
+   "id": "samsung-s6-edge",
+   "name": "Samsung S6 Edge",
+   "image": "s6edgerep-1.jpg",
+   "services": [
+    {
+     "name": "Bagcover",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Ladestik",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Software",
+     "price": null,
+     "time": null,
+     "note": null
+    }
+   ]
+  },
+  {
+   "id": "samsung-s6",
+   "name": "Samsung S6",
+   "image": "s6rep.jpg",
+   "services": [
+    {
+     "name": "Skærm (original)",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Fjern Google-konto",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Batteri",
+     "price": null,
+     "time": null,
+     "note": null
+    }
+   ]
+  },
+  {
+   "id": "samsung-s5-mini",
+   "name": "Samsung S5 Mini",
+   "image": "s5minirep.jpg",
+   "services": [
+    {
+     "name": "Skærm (original)",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Fjern Google-konto",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Batteri",
+     "price": null,
+     "time": null,
+     "note": null
+    }
+   ]
+  },
+  {
+   "id": "samsung-s5",
+   "name": "Samsung S5",
+   "image": "s5rep.jpg",
+   "services": [
+    {
+     "name": "Bagcover (inkl. ramme)",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Ladestik",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Software",
+     "price": null,
+     "time": null,
+     "note": null
+    }
+   ]
+  },
+  {
+   "id": "samsung-s4-mini",
+   "name": "Samsung S4 Mini",
+   "image": "s4minirep.jpg",
+   "services": [
+    {
+     "name": "Vandskade",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Fejlsøgning",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "IC-lodning",
+     "price": null,
+     "time": null,
+     "note": null
+    }
+   ]
+  },
+  {
+   "id": "samsung-s4",
+   "name": "Samsung S4",
+   "image": "s4rep.jpg",
+   "services": [
+    {
+     "name": "Vandskade",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Fejlsøgning",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "IC-lodning",
+     "price": null,
+     "time": null,
+     "note": null
+    }
+   ]
+  },
+  {
+   "id": "samsung-s3-mini",
+   "name": "Samsung S3 Mini",
+   "image": "s3minirep.jpg",
+   "services": [
+    {
+     "name": "Bagcover (inkl. ramme)",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Ladestik",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Software",
+     "price": null,
+     "time": null,
+     "note": null
+    }
+   ]
+  },
+  {
+   "id": "samsung-s3",
+   "name": "Samsung S3",
+   "image": "s3rep.jpg",
+   "services": [
+    {
+     "name": "Skærm (original)",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Fjern Google-konto",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Batteri",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Bagcover (inkl. ramme)",
+     "price": null,
+     "time": null,
+     "note": null
+    }
+   ]
+  },
+  {
+   "id": "samsung-note-20-ultra",
+   "name": "Samsung Note 20 Ultra",
+   "image": "note-20-ultra-reparation.jpg",
+   "services": [
+    {
+     "name": "Ladestik",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Software",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Vandskade",
+     "price": null,
+     "time": null,
+     "note": null
+    }
+   ]
+  },
+  {
+   "id": "samsung-note-20",
+   "name": "Samsung Note 20",
+   "image": "note-20-reparation.jpg",
+   "services": [
+    {
+     "name": "Batteri",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Bagcover",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Ladestik",
+     "price": null,
+     "time": null,
+     "note": null
+    }
+   ]
+  },
+  {
+   "id": "samsung-note-10-plus",
+   "name": "Samsung Note 10 Plus",
+   "image": "note10rep.jpg",
+   "services": [
+    {
+     "name": "Skærm (original)",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Fjern Google-konto",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Batteri",
+     "price": null,
+     "time": null,
+     "note": null
+    }
+   ]
+  },
+  {
+   "id": "samsung-note-10-lite",
+   "name": "Samsung Note 10 lite",
+   "image": "not10literep.jpg",
+   "services": [
+    {
+     "name": "Vandskade",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Fejlsøgning",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "IC-lodning",
+     "price": null,
+     "time": null,
+     "note": null
+    }
+   ]
+  },
+  {
+   "id": "samsung-note-10",
+   "name": "Samsung Note 10",
+   "image": "note10rep-1.jpg",
+   "services": [
+    {
+     "name": "Bagcover (inkl. ramme)",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Ladestik",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Software",
+     "price": null,
+     "time": null,
+     "note": null
+    }
+   ]
+  },
+  {
+   "id": "samsung-note-9",
+   "name": "Samsung Note 9",
+   "image": "note9rep.jpg",
+   "services": [
+    {
+     "name": "Skærm (original)",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Fjern Google-konto",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Batteri",
+     "price": null,
+     "time": null,
+     "note": null
+    }
+   ]
+  },
+  {
+   "id": "samsung-note-8",
+   "name": "Samsung Note 8",
+   "image": "note8rep.jpg",
+   "services": [
+    {
+     "name": "Software",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Vandskade",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Fejlsøgning",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "IC-lodning",
+     "price": null,
+     "time": null,
+     "note": null
+    }
+   ]
+  },
+  {
+   "id": "samsung-note-edge",
+   "name": "Samsung Note Edge",
+   "image": "noteedgerep.jpg",
+   "services": [
+    {
+     "name": "Fjern Google-konto",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Batteri",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Bagcover (inkl. ramme)",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Ladestik",
+     "price": null,
+     "time": null,
+     "note": null
+    }
+   ]
+  },
+  {
+   "id": "samsung-note-5",
+   "name": "Samsung Note 5",
+   "image": "note5rep.jpg",
+   "services": [
+    {
+     "name": "Skærm (original)",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Fjern Google-konto",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Batteri",
+     "price": null,
+     "time": null,
+     "note": null
+    }
+   ]
+  },
+  {
+   "id": "samsung-note-4",
+   "name": "Samsung Note 4",
+   "image": "note4rep.jpg",
+   "services": [
+    {
+     "name": "Vandskade",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Fejlsøgning",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "IC-lodning",
+     "price": null,
+     "time": null,
+     "note": null
+    }
+   ]
+  },
+  {
+   "id": "samsung-note-3",
+   "name": "Samsung Note 3",
+   "image": "note3rep.jpg",
+   "services": [
+    {
+     "name": "Fjern Google-konto",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Batteri",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Bagcover (inkl. ramme)",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Ladestik",
+     "price": null,
+     "time": null,
+     "note": null
+    }
+   ]
+  },
+  {
+   "id": "samsung-note-1",
+   "name": "Samsung Note 1",
+   "image": "note1rep.jpg",
+   "services": [
+    {
+     "name": "Vandskade",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Fejlsøgning",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "IC-lodning",
+     "price": null,
+     "time": null,
+     "note": null
+    }
+   ]
+  },
+  {
+   "id": "samsung-a04s",
+   "name": "Samsung A04s",
+   "image": "samsung-a03s-reparation.jpg",
+   "services": [
+    {
+     "name": "Bagcover (inkl. ramme)",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Ladestik",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Software",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Vandskade",
+     "price": null,
+     "time": null,
+     "note": null
+    }
+   ]
+  },
+  {
+   "id": "samsung-a23",
+   "name": "Samsung A23",
+   "image": "samsung-a23-reparation.jpg",
+   "services": [
+    {
+     "name": "Fjern Google-konto",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Batteri",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Bagcover (inkl. ramme)",
+     "price": null,
+     "time": null,
+     "note": null
+    }
+   ]
+  },
+  {
+   "id": "samsung-a34",
+   "name": "Samsung A34",
+   "image": "samsung-a34-reparation.jpg",
+   "services": [
+    {
+     "name": "Skærm (original)",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Fjern Google-konto",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Batteri",
+     "price": null,
+     "time": null,
+     "note": null
+    }
+   ]
+  },
+  {
+   "id": "samsung-a54",
+   "name": "Samsung A54",
+   "image": "samsung-a54-reparation.jpg",
+   "services": [
+    {
+     "name": "Vandskade",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Fejlsøgning",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "IC-lodning",
+     "price": null,
+     "time": null,
+     "note": null
+    }
+   ]
+  },
+  {
+   "id": "samsung-a14",
+   "name": "Samsung A14",
+   "image": "samsung-a14-reparation.jpg",
+   "services": [
+    {
+     "name": "Bagcover",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Ladestik",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Software",
+     "price": null,
+     "time": null,
+     "note": null
+    }
+   ]
+  },
+  {
+   "id": "samsung-a03",
+   "name": "Samsung A03",
+   "image": "samsung-a03-reparation.jpg",
+   "services": [
+    {
+     "name": "Ladestik",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Software",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Vandskade",
+     "price": null,
+     "time": null,
+     "note": null
+    }
+   ]
+  },
+  {
+   "id": "samsung-a53",
+   "name": "Samsung A53",
+   "image": "samsung-a53-reparation.jpg",
+   "services": [
+    {
+     "name": "Vandskade",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Fejlsøgning",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "IC-lodning",
+     "price": null,
+     "time": null,
+     "note": null
+    }
+   ]
+  },
+  {
+   "id": "samsung-a33",
+   "name": "Samsung A33",
+   "image": "samsung-a33-reparation.jpg",
+   "services": [
+    {
+     "name": "Skærm (original)",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Fjern Google-konto",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Batteri",
+     "price": null,
+     "time": null,
+     "note": null
+    }
+   ]
+  },
+  {
+   "id": "samsung-a13",
+   "name": "Samsung A13",
+   "image": "samsung-a13-reparation.jpg",
+   "services": [
+    {
+     "name": "Ladestik",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Software",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Vandskade",
+     "price": null,
+     "time": null,
+     "note": null
+    }
+   ]
+  },
+  {
+   "id": "samsung-a03s",
+   "name": "Samsung A03s",
+   "image": "samsung-a03s-reparation-1.jpg",
+   "services": [
+    {
+     "name": "Ladestik",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Software",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Vandskade",
+     "price": null,
+     "time": null,
+     "note": null
+    }
+   ]
+  },
+  {
+   "id": "samsung-a51-5g",
+   "name": "Samsung A51 5G",
+   "image": "samsung-a51-5g-reparation.jpg",
+   "services": [
+    {
+     "name": "Software",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Fejlsøgning",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "IC-lodning",
+     "price": null,
+     "time": null,
+     "note": null
+    }
+   ]
+  },
+  {
+   "id": "samsung-a52s",
+   "name": "Samsung A52s",
+   "image": "samsung-a52s-reparation.jpg",
+   "services": [
+    {
+     "name": "Batteri",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Bagcover (inkl. ramme)",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Ladestik",
+     "price": null,
+     "time": null,
+     "note": null
+    }
+   ]
+  }
+ ],
+ "huawei-reparation": [
+  {
+   "id": "huawei-pura-90-pro",
+   "name": "Huawei Pura 90 Pro",
+   "image": null,
+   "services": [
+    {
+     "name": "Vandskade",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Fejlsøgning",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "IC-lodning",
+     "price": null,
+     "time": null,
+     "note": null
+    }
+   ]
+  },
+  {
+   "id": "huawei-pura-90",
+   "name": "Huawei Pura 90",
+   "image": null,
+   "services": [
+    {
+     "name": "Batteri",
+     "price": "499 kr.",
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Bagcover (inkl. ramme)",
+     "price": "499 kr.",
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Ladestik",
+     "price": "399 kr.",
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Software",
+     "price": "199 kr.",
+     "time": null,
+     "note": null
+    }
+   ]
+  },
+  {
+   "id": "huawei-pura-80-pro",
+   "name": "Huawei Pura 80 Pro",
+   "image": null,
+   "services": [
+    {
+     "name": "Skærm (OEM kvalitet)",
+     "price": "499 kr.",
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Skærm (original)",
+     "price": "799 kr.",
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Fjern Google-konto",
+     "price": "399 kr.",
+     "time": null,
+     "note": null
+    }
+   ]
+  },
+  {
+   "id": "huawei-pura-70-pro",
+   "name": "Huawei Pura 70 Pro",
+   "image": null,
+   "services": [
+    {
+     "name": "Vandskade",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Fejlsøgning",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "IC-lodning",
+     "price": null,
+     "time": null,
+     "note": null
+    }
+   ]
+  },
+  {
+   "id": "huawei-p60-pro",
+   "name": "Huawei P60 Pro",
+   "image": null,
+   "services": [
+    {
+     "name": "Batteri",
+     "price": "499 kr.",
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Bagcover (inkl. ramme)",
+     "price": "499 kr.",
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Ladestik",
+     "price": "399 kr.",
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Software",
+     "price": "199 kr.",
+     "time": null,
+     "note": null
+    }
+   ]
+  },
+  {
+   "id": "huawei-p50-pro",
+   "name": "Huawei P50 Pro",
+   "image": null,
+   "services": [
+    {
+     "name": "Skærm (OEM kvalitet)",
+     "price": "499 kr.",
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Skærm (original)",
+     "price": "799 kr.",
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Fjern Google-konto",
+     "price": "399 kr.",
+     "time": null,
+     "note": null
+    }
+   ]
+  },
+  {
+   "id": "huawei-p-smart-pro",
+   "name": "Huawei P Smart Pro",
+   "image": null,
+   "services": [
+    {
+     "name": "Vandskade",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Fejlsøgning",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "IC-lodning",
+     "price": null,
+     "time": null,
+     "note": null
+    }
+   ]
+  },
+  {
+   "id": "huawei-p-smart-2021",
+   "name": "Huawei P Smart 2021",
+   "image": null,
+   "services": [
+    {
+     "name": "Batteri",
+     "price": "499 kr.",
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Bagcover (inkl. ramme)",
+     "price": "499 kr.",
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Ladestik",
+     "price": "399 kr.",
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Software",
+     "price": "199 kr.",
+     "time": null,
+     "note": null
+    }
+   ]
+  },
+  {
+   "id": "huawei-p-smart-2020",
+   "name": "Huawei P Smart 2020",
+   "image": null,
+   "services": [
+    {
+     "name": "Skærm (OEM kvalitet)",
+     "price": "499 kr.",
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Skærm (original)",
+     "price": "799 kr.",
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Fjern Google-konto",
+     "price": "399 kr.",
+     "time": null,
+     "note": null
+    }
+   ]
+  },
+  {
+   "id": "huawei-p40-lite",
+   "name": "Huawei P40 Lite",
+   "image": null,
+   "services": [
+    {
+     "name": "Batteri",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Bagcover (inkl. ramme)",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Ladestik",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Software",
+     "price": null,
+     "time": null,
+     "note": null
+    }
+   ]
+  },
+  {
+   "id": "huawei-p30-pro",
+   "name": "Huawei P30 Pro",
+   "image": null,
+   "services": [
+    {
+     "name": "Skærm (original) inkl. Batteri",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Fjern Google-konto",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Batteri",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Bagcover (inkl. ramme)",
+     "price": null,
+     "time": null,
+     "note": null
+    }
+   ]
+  },
+  {
+   "id": "huawei-p30-lite",
+   "name": "Huawei P30 Lite",
+   "image": null,
+   "services": [
+    {
+     "name": "Skærm (original)",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Fjern Google-konto",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Batteri",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Bagcover (inkl. ramme)",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Batteri (original)",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Bagcover",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Ladestik",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Software",
+     "price": null,
+     "time": null,
+     "note": null
+    }
+   ]
+  },
+  {
+   "id": "huawei-p40-pro",
+   "name": "Huawei P40 Pro",
+   "image": null,
+   "services": [
+    {
+     "name": "Batteri",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Bagcover (inkl. ramme)",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Ladestik",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Software",
+     "price": null,
+     "time": null,
+     "note": null
+    }
+   ]
+  },
+  {
+   "id": "huawei-p40-lite-e",
+   "name": "Huawei P40 Lite E",
+   "image": null,
+   "services": [
+    {
+     "name": "Vandskade",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Fejlsøgning",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "IC-lodning",
+     "price": null,
+     "time": null,
+     "note": null
+    }
+   ]
+  },
+  {
+   "id": "huawei-p30",
+   "name": "Huawei P30",
+   "image": null,
+   "services": [
+    {
+     "name": "Bagcover",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Ladestik",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Software",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Vandskade",
+     "price": null,
+     "time": null,
+     "note": null
+    }
+   ]
+  },
+  {
+   "id": "huawei-p20-pro",
+   "name": "Huawei P20 Pro",
+   "image": null,
+   "services": [
+    {
+     "name": "Fjern Google-konto",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Batteri",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Bagcover (inkl. ramme)",
+     "price": null,
+     "time": null,
+     "note": null
+    }
+   ]
+  },
+  {
+   "id": "huawei-p20-lite",
+   "name": "Huawei P20 Lite",
+   "image": null,
+   "services": [
+    {
+     "name": "Skærm (OEM kvalitet)",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Skærm (original) inkl. Batteri",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Fjern Google-konto",
+     "price": null,
+     "time": null,
+     "note": null
+    }
+   ]
+  },
+  {
+   "id": "huawei-p20",
+   "name": "Huawei P20",
+   "image": null,
+   "services": [
+    {
+     "name": "Ladestik",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Software",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Vandskade",
+     "price": null,
+     "time": null,
+     "note": null
+    }
+   ]
+  },
+  {
+   "id": "huawei-p10-plus",
+   "name": "Huawei P10 Plus",
+   "image": null,
+   "services": [
+    {
+     "name": "Vandskade",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Fejlsøgning",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "IC-lodning",
+     "price": null,
+     "time": null,
+     "note": null
+    }
+   ]
+  },
+  {
+   "id": "huawei-p10-lite",
+   "name": "Huawei P10 Lite",
+   "image": null,
+   "services": [
+    {
+     "name": "Skærm (original)",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Fjern Google-konto",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Batteri",
+     "price": null,
+     "time": null,
+     "note": null
+    }
+   ]
+  },
+  {
+   "id": "huawei-p10",
+   "name": "Huawei P10",
+   "image": null,
+   "services": [
+    {
+     "name": "Batteri",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Bagcover (inkl. ramme)",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Ladestik",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Software",
+     "price": null,
+     "time": null,
+     "note": null
+    }
+   ]
+  },
+  {
+   "id": "huawei-p9-plus",
+   "name": "Huawei P9 Plus",
+   "image": null,
+   "services": [
+    {
+     "name": "Vandskade",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Fejlsøgning",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "IC-lodning",
+     "price": null,
+     "time": null,
+     "note": null
+    }
+   ]
+  },
+  {
+   "id": "huawei-p9-lite-mini",
+   "name": "Huawei P9 Lite Mini",
+   "image": null,
+   "services": [
+    {
+     "name": "Ladestik",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Software",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Vandskade",
+     "price": null,
+     "time": null,
+     "note": null
+    }
+   ]
+  },
+  {
+   "id": "huawei-p9-lite",
+   "name": "Huawei P9 Lite",
+   "image": null,
+   "services": [
+    {
+     "name": "Bagcover (inkl. ramme)",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Ladestik",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Software",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Vandskade",
+     "price": null,
+     "time": null,
+     "note": null
+    }
+   ]
+  },
+  {
+   "id": "huawei-p9",
+   "name": "Huawei P9",
+   "image": null,
+   "services": [
+    {
+     "name": "Skærm (original)",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Fjern Google-konto",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Batteri",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Bagcover (inkl. ramme)",
+     "price": null,
+     "time": null,
+     "note": null
+    }
+   ]
+  },
+  {
+   "id": "huawei-p-smart-z",
+   "name": "Huawei P Smart Z",
+   "image": null,
+   "services": [
+    {
+     "name": "Ladestik",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Software",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Vandskade",
+     "price": null,
+     "time": null,
+     "note": null
+    }
+   ]
+  },
+  {
+   "id": "huawei-nova-5t",
+   "name": "Huawei Nova 5T",
+   "image": null,
+   "services": [
+    {
+     "name": "Vandskade",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Fejlsøgning",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "IC-lodning",
+     "price": null,
+     "time": null,
+     "note": null
+    }
+   ]
+  },
+  {
+   "id": "huawei-nova-3i",
+   "name": "Huawei Nova 3i",
+   "image": null,
+   "services": [
+    {
+     "name": "Batteri",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Bagcover (inkl. ramme)",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Ladestik",
+     "price": null,
+     "time": null,
+     "note": null
+    }
+   ]
+  },
+  {
+   "id": "huawei-nova-3",
+   "name": "Huawei Nova 3",
+   "image": null,
+   "services": [
+    {
+     "name": "Ladestik",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Software",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Vandskade",
+     "price": null,
+     "time": null,
+     "note": null
+    }
+   ]
+  }
+ ],
+ "google-pixel-reparation": [
+  {
+   "id": "google-pixel-11-pro-xl",
+   "name": "Google Pixel 11 Pro XL",
+   "image": null,
+   "services": [
+    {
+     "name": "Skærmskift (original)",
+     "price": null,
+     "time": "1 time",
+     "note": null
+    }
+   ]
+  },
+  {
+   "id": "google-pixel-11-pro",
+   "name": "Google Pixel 11 Pro",
+   "image": null,
+   "services": [
+    {
+     "name": "Skærmskift (original)",
+     "price": null,
+     "time": "1 time",
+     "note": null
+    }
+   ]
+  },
+  {
+   "id": "google-pixel-11",
+   "name": "Google Pixel 11",
+   "image": null,
+   "services": [
+    {
+     "name": "Skærmskift (original)",
+     "price": null,
+     "time": "1 time",
+     "note": null
+    }
+   ]
+  },
+  {
+   "id": "google-pixel-11-pro-fold",
+   "name": "Google Pixel 11 Pro Fold",
+   "image": null,
+   "services": [
+    {
+     "name": "Skærmskift (original)",
+     "price": null,
+     "time": "1 time",
+     "note": null
+    }
+   ]
+  },
+  {
+   "id": "google-pixel-8-pro",
+   "name": "Google Pixel 8 Pro",
+   "image": null,
+   "services": [
+    {
+     "name": "Skærmskift (original)",
+     "price": null,
+     "time": "1 time",
+     "note": null
+    }
+   ]
+  },
+  {
+   "id": "google-pixel-8",
+   "name": "Google Pixel 8",
+   "image": null,
+   "services": [
+    {
+     "name": "Skærmskift (original)",
+     "price": null,
+     "time": "1 time",
+     "note": null
+    }
+   ]
+  },
+  {
+   "id": "google-pixel-7-pro",
+   "name": "Google Pixel 7 Pro",
+   "image": null,
+   "services": [
+    {
+     "name": "Skærmskift (original)",
+     "price": null,
+     "time": "1 time",
+     "note": null
+    }
+   ]
+  },
+  {
+   "id": "google-pixel-7a",
+   "name": "Google Pixel 7A",
+   "image": null,
+   "services": [
+    {
+     "name": "Skærmskift (original)",
+     "price": null,
+     "time": "1 time",
+     "note": null
+    }
+   ]
+  },
+  {
+   "id": "google-pixel-6-pro",
+   "name": "Google Pixel 6 Pro",
+   "image": null,
+   "services": [
+    {
+     "name": "Skærmskift (original)",
+     "price": null,
+     "time": "1 time",
+     "note": null
+    }
+   ]
+  },
+  {
+   "id": "google-pixel-6",
+   "name": "Google Pixel 6",
+   "image": null,
+   "services": [
+    {
+     "name": "Skærmskift (original)",
+     "price": null,
+     "time": "1 time",
+     "note": null
+    }
+   ]
+  },
+  {
+   "id": "google-pixel-6a",
+   "name": "Google Pixel 6A",
+   "image": null,
+   "services": [
+    {
+     "name": "Skærmskift (original)",
+     "price": null,
+     "time": "1 time",
+     "note": null
+    }
+   ]
+  },
+  {
+   "id": "google-pixel-5a",
+   "name": "Google Pixel 5A",
+   "image": null,
+   "services": [
+    {
+     "name": "Skærmskift (original)",
+     "price": null,
+     "time": "1 time",
+     "note": null
+    }
+   ]
+  },
+  {
+   "id": "google-pixel-5",
+   "name": "Google Pixel 5",
+   "image": null,
+   "services": [
+    {
+     "name": "Skærmskift (original)",
+     "price": null,
+     "time": "1 time",
+     "note": null
+    }
+   ]
+  },
+  {
+   "id": "google-pixel-4a-5g",
+   "name": "Google Pixel 4A 5G",
+   "image": null,
+   "services": [
+    {
+     "name": "Skærmskift (original)",
+     "price": null,
+     "time": "1 time",
+     "note": null
+    }
+   ]
+  },
+  {
+   "id": "google-pixel-4a-4g",
+   "name": "Google Pixel 4A 4G",
+   "image": null,
+   "services": [
+    {
+     "name": "Skærmskift (original)",
+     "price": null,
+     "time": "1 time",
+     "note": null
+    }
+   ]
+  },
+  {
+   "id": "google-pixel-4-xl",
+   "name": "Google Pixel 4 XL",
+   "image": null,
+   "services": [
+    {
+     "name": "Reparation",
+     "price": null,
+     "time": "1 time",
+     "note": "Forventet levering 1-2 dage efter aftale"
+    }
+   ]
+  },
+  {
+   "id": "google-pixel-4",
+   "name": "Google Pixel 4",
+   "image": null,
+   "services": [
+    {
+     "name": "Reparation",
+     "price": null,
+     "time": "1 time",
+     "note": "Forventet levering 1-2 dage efter aftale"
+    }
+   ]
+  },
+  {
+   "id": "google-pixel-3a-xl",
+   "name": "Google Pixel 3A XL",
+   "image": null,
+   "services": [
+    {
+     "name": "Reparation",
+     "price": null,
+     "time": "1 time",
+     "note": "Forventet levering 1-2 dage efter aftale"
+    }
+   ]
+  },
+  {
+   "id": "google-pixel-3a",
+   "name": "Google Pixel 3A",
+   "image": null,
+   "services": [
+    {
+     "name": "Reparation",
+     "price": null,
+     "time": "1 time",
+     "note": "Forventet levering 1-2 dage efter aftale"
+    }
+   ]
+  },
+  {
+   "id": "google-pixel-3-xl",
+   "name": "Google Pixel 3 XL",
+   "image": null,
+   "services": [
+    {
+     "name": "Reparation",
+     "price": null,
+     "time": "1 time",
+     "note": "Forventet levering 1-2 dage efter aftale"
+    }
+   ]
+  },
+  {
+   "id": "google-pixel-3",
+   "name": "Google Pixel 3",
+   "image": null,
+   "services": [
+    {
+     "name": "Reparation",
+     "price": null,
+     "time": "1 time",
+     "note": "Forventet levering 1-2 dage efter aftale"
+    }
+   ]
+  },
+  {
+   "id": "google-pixel-2",
+   "name": "Google Pixel 2",
+   "image": null,
+   "services": [
+    {
+     "name": "Reparation",
+     "price": null,
+     "time": "1 time",
+     "note": "Forventet levering 1-2 dage efter aftale"
+    }
+   ]
+  },
+  {
+   "id": "google-pixel-xl",
+   "name": "Google Pixel XL",
+   "image": null,
+   "services": [
+    {
+     "name": "Reparation",
+     "price": null,
+     "time": "1 time",
+     "note": "Forventet levering 1-2 dage efter aftale"
+    }
+   ]
+  },
+  {
+   "id": "google-pixel",
+   "name": "Google Pixel",
+   "image": null,
+   "services": [
+    {
+     "name": "Reparation",
+     "price": null,
+     "time": "1 time",
+     "note": "Forventet levering 1-2 dage efter aftale"
+    }
+   ]
+  }
+ ],
+ "oneplus-reparation": [
+  {
+   "id": "oneplus-15r",
+   "name": "OnePlus 15R",
+   "image": "oneplus-15r.jpg",
+   "services": [
+    {
+     "name": "Ladestik (original)",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Software",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Vandskade",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Fejlsøgning",
+     "price": null,
+     "time": null,
+     "note": null
+    }
+   ]
+  },
+  {
+   "id": "oneplus-15",
+   "name": "OnePlus 15",
+   "image": "oneplus-15.jpg",
+   "services": [
+    {
+     "name": "Batteri (original)",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Bagcover (kun glas)",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Ladestik (reparation)",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Ladestik (original)",
+     "price": null,
+     "time": null,
+     "note": null
+    }
+   ]
+  },
+  {
+   "id": "oneplus-nord-5",
+   "name": "OnePlus Nord 5",
+   "image": "oneplus-nord-5.jpg",
+   "services": [
+    {
+     "name": "Batteri (original)",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Bagcover (kun glas)",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Ladestik (reparation)",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Ladestik (original)",
+     "price": null,
+     "time": null,
+     "note": null
+    }
+   ]
+  },
+  {
+   "id": "oneplus-nord-3",
+   "name": "OnePlus Nord 3",
+   "image": "oneplus-nord-3.jpg",
+   "services": [
+    {
+     "name": "Ladestik (original)",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Software",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Vandskade",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Fejlsøgning",
+     "price": null,
+     "time": null,
+     "note": null
+    }
+   ]
+  },
+  {
+   "id": "oneplus-nord-ce-3-lite",
+   "name": "OnePlus Nord CE 3 Lite",
+   "image": "oneplus-nord-ce-3-lite-reparation.jpg",
+   "services": [
+    {
+     "name": "Batteri (original)",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Bagcover (kun glas)",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Ladestik (reparation)",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Ladestik (original)",
+     "price": null,
+     "time": null,
+     "note": null
+    }
+   ]
+  },
+  {
+   "id": "oneplus-11",
+   "name": "OnePlus 11",
+   "image": "oneplus-10-pro-reparation.jpg",
+   "services": [
+    {
+     "name": "Batteri (original)",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Bagcover (kun glas)",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Ladestik (reparation)",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Ladestik (original)",
+     "price": null,
+     "time": null,
+     "note": null
+    }
+   ]
+  },
+  {
+   "id": "oneplus-10t",
+   "name": "OnePlus 10T",
+   "image": "oneplus-10t-reparation.jpg",
+   "services": [
+    {
+     "name": "Ladestik (reparation)",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Ladestik (original)",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Software",
+     "price": null,
+     "time": null,
+     "note": null
+    }
+   ]
+  },
+  {
+   "id": "oneplus-nord-ce-2-lite",
+   "name": "OnePlus Nord CE 2 Lite",
+   "image": "oneplus-nord-ce-2-lite-reparation.jpg",
+   "services": [
+    {
+     "name": "Ladestik (original)",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Software",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Vandskade",
+     "price": null,
+     "time": null,
+     "note": null
+    }
+   ]
+  },
+  {
+   "id": "oneplus-nord-ce-2",
+   "name": "OnePlus Nord CE 2",
+   "image": "oneplus-nord-ce-2-reparation.jpg",
+   "services": [
+    {
+     "name": "Bagcover (kun glas)",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Ladestik",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Ladestik (original)",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Software",
+     "price": null,
+     "time": null,
+     "note": null
+    }
+   ]
+  },
+  {
+   "id": "oneplus-nord-2t",
+   "name": "OnePlus Nord 2T",
+   "image": "oneplus-nord-2t-reparation.jpg",
+   "services": [
+    {
+     "name": "Bagcover (kun glas)",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Ladestik (reparation)",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Ladestik (original)",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Software",
+     "price": null,
+     "time": null,
+     "note": null
+    }
+   ]
+  },
+  {
+   "id": "oneplus-10-pro",
+   "name": "OnePlus 10 Pro",
+   "image": "oneplus-10-pro-reparation-1.jpg",
+   "services": [
+    {
+     "name": "Ladestik (original)",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Software",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Vandskade",
+     "price": null,
+     "time": null,
+     "note": null
+    }
+   ]
+  },
+  {
+   "id": "oneplus-9-pro",
+   "name": "OnePlus 9 Pro",
+   "image": "oneplus-9-pro-reparation.jpg",
+   "services": [
+    {
+     "name": "Bagcover (kun glas)",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Ladestik (reparation)",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Ladestik (original)",
+     "price": null,
+     "time": null,
+     "note": null
+    }
+   ]
+  },
+  {
+   "id": "oneplus-9",
+   "name": "OnePlus 9",
+   "image": "oneplus-9-reparation.jpg",
+   "services": [
+    {
+     "name": "Bagcover (kun glas)",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Ladestik (reparation)",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Ladestik (original)",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Software",
+     "price": null,
+     "time": null,
+     "note": null
+    }
+   ]
+  },
+  {
+   "id": "oneplus-nord-ce",
+   "name": "OnePlus Nord CE",
+   "image": "oneplus-nord-ce-reparation-1.jpg",
+   "services": [
+    {
+     "name": "Skærm (original)",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Batteri",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Batteri (original)",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Bagcover (kun glas)",
+     "price": null,
+     "time": null,
+     "note": null
+    }
+   ]
+  },
+  {
+   "id": "oneplus-nord-2",
+   "name": "OnePlus Nord 2",
+   "image": "oneplus-nord-2-reparation.jpg",
+   "services": [
+    {
+     "name": "Bagcover (kun glas)",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Ladestik",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Ladestik (original)",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Software",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Vandskade",
+     "price": null,
+     "time": null,
+     "note": null
+    }
+   ]
+  },
+  {
+   "id": "oneplus-nord-n200",
+   "name": "OnePlus Nord N200",
+   "image": "oneplus-nord-n100-reparation.jpg",
+   "services": [
+    {
+     "name": "Bagcover (kun glas)",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Ladestik (reparation)",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Ladestik (original)",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Software",
+     "price": null,
+     "time": null,
+     "note": null
+    }
+   ]
+  },
+  {
+   "id": "oneplus-nord-n100",
+   "name": "OnePlus Nord N100",
+   "image": "oneplus-nord-n100-reparation-1.jpg",
+   "services": [
+    {
+     "name": "Skærm (original)",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Batteri",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Batteri (original)",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Bagcover (kun glas)",
+     "price": null,
+     "time": null,
+     "note": null
+    }
+   ]
+  },
+  {
+   "id": "oneplus-nord-n10",
+   "name": "OnePlus Nord N10",
+   "image": "oneplus-nord-n10-reparation.jpg",
+   "services": [
+    {
+     "name": "Bagcover (kun glas)",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Ladestik",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Ladestik (original)",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Software",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Vandskade",
+     "price": null,
+     "time": null,
+     "note": null
+    }
+   ]
+  }
+ ],
+ "sony-reparation": [
+  {
+   "id": "sony-xperia-10-viii",
+   "name": "Sony Xperia 10 VIII",
+   "image": "sony-xperia-10-viii.jpg",
+   "services": [
+    {
+     "name": "Skærm (original)",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Fjern Google-konto",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Batteri",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Bagcover",
+     "price": null,
+     "time": null,
+     "note": null
+    }
+   ]
+  },
+  {
+   "id": "sony-xperia-1-viii",
+   "name": "Sony Xperia 1 VIII",
+   "image": "sony-xperia-1-viii.jpg",
+   "services": [
+    {
+     "name": "Skærm (original)",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Fjern Google-konto",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Batteri",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Bagcover",
+     "price": null,
+     "time": null,
+     "note": null
+    }
+   ]
+  },
+  {
+   "id": "sony-xperia-10-vii",
+   "name": "Sony Xperia 10 VII",
+   "image": "sony-xperia-10-vii.jpg",
+   "services": [
+    {
+     "name": "Bagcover",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Ladestik",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Software",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Vandskade",
+     "price": null,
+     "time": null,
+     "note": null
+    }
+   ]
+  },
+  {
+   "id": "sony-xperia-10-plus",
+   "name": "Sony Xperia 10 Plus",
+   "image": "10-plus.jpg",
+   "services": [
+    {
+     "name": "Skærm (original)",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Fjern Google-konto",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Batteri",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Bagcover",
+     "price": null,
+     "time": null,
+     "note": null
+    }
+   ]
+  },
+  {
+   "id": "sony-xperia-10",
+   "name": "Sony Xperia 10",
+   "image": "10.jpg",
+   "services": [
+    {
+     "name": "Skærm (original)",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Fjern Google-konto",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Batteri",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Bagcover",
+     "price": null,
+     "time": null,
+     "note": null
+    }
+   ]
+  },
+  {
+   "id": "sony-xperia-5",
+   "name": "Sony Xperia 5",
+   "image": "5.jpg",
+   "services": [
+    {
+     "name": "Bagcover",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Ladestik",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Software",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Vandskade",
+     "price": null,
+     "time": null,
+     "note": null
+    }
+   ]
+  },
+  {
+   "id": "sony-xperia-1",
+   "name": "Sony Xperia 1",
+   "image": "1.jpg",
+   "services": [
+    {
+     "name": "Fjern Google-konto",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Batteri",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Bagcover",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Ladestik",
+     "price": null,
+     "time": null,
+     "note": null
+    }
+   ]
+  },
+  {
+   "id": "sony-xperia-e5",
+   "name": "Sony Xperia E5",
+   "image": "e5.jpg",
+   "services": [
+    {
+     "name": "Skærm (original)",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Fjern Google-konto",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Batteri",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Bagcover",
+     "price": null,
+     "time": null,
+     "note": null
+    }
+   ]
+  },
+  {
+   "id": "sony-xperia-l3",
+   "name": "Sony Xperia L3",
+   "image": "l3.jpg",
+   "services": [
+    {
+     "name": "Bagcover",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Ladestik",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Software",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Vandskade",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Fejlsøgning",
+     "price": null,
+     "time": null,
+     "note": null
+    }
+   ]
+  },
+  {
+   "id": "sony-xperia-l2",
+   "name": "Sony Xperia L2",
+   "image": "l2.jpg",
+   "services": [
+    {
+     "name": "Batteri",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Bagcover",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Ladestik",
+     "price": null,
+     "time": null,
+     "note": null
+    }
+   ]
+  },
+  {
+   "id": "sony-xperia-l1",
+   "name": "Sony Xperia L1",
+   "image": "l1.jpg",
+   "services": [
+    {
+     "name": "Software",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Vandskade",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Fejlsøgning",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "IC-lodning",
+     "price": null,
+     "time": null,
+     "note": null
+    }
+   ]
+  },
+  {
+   "id": "sony-xperia-t3",
+   "name": "Sony Xperia T3",
+   "image": "t3.jpg",
+   "services": [
+    {
+     "name": "Skærm (original)",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Fjern Google-konto",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Batteri",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Bagcover",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Ladestik",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Software",
+     "price": null,
+     "time": null,
+     "note": null
+    }
+   ]
+  },
+  {
+   "id": "sony-xperia-t2-ultra",
+   "name": "Sony Xperia T2 Ultra",
+   "image": "t2-ultra.jpg",
+   "services": [
+    {
+     "name": "Bagcover",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Ladestik",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Software",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Vandskade",
+     "price": null,
+     "time": null,
+     "note": null
+    }
+   ]
+  },
+  {
+   "id": "sony-xperia-t",
+   "name": "Sony Xperia T",
+   "image": "t.jpg",
+   "services": [
+    {
+     "name": "Software",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Vandskade",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Fejlsøgning",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "IC-lodning",
+     "price": null,
+     "time": null,
+     "note": null
+    }
+   ]
+  },
+  {
+   "id": "sony-xperia-m5",
+   "name": "Sony Xperia M5",
+   "image": "m5.jpg",
+   "services": [
+    {
+     "name": "Skærm (original)",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Fjern Google-konto",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Batteri",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Bagcover",
+     "price": null,
+     "time": null,
+     "note": null
+    }
+   ]
+  },
+  {
+   "id": "sony-xperia-m4-aqua",
+   "name": "Sony Xperia M4 Aqua",
+   "image": "m4-aqua.jpg",
+   "services": [
+    {
+     "name": "Batteri",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Bagcover",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Ladestik",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Software",
+     "price": null,
+     "time": null,
+     "note": null
+    }
+   ]
+  },
+  {
+   "id": "sony-xperia-m2-aqua",
+   "name": "Sony Xperia M2 Aqua",
+   "image": "m2-aqua.jpg",
+   "services": [
+    {
+     "name": "Software",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Vandskade",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Fejlsøgning",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "IC-lodning",
+     "price": null,
+     "time": null,
+     "note": null
+    }
+   ]
+  },
+  {
+   "id": "sony-xperia-m2",
+   "name": "Sony Xperia M2",
+   "image": "m2.jpg",
+   "services": [
+    {
+     "name": "Batteri",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Bagcover",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Ladestik",
+     "price": null,
+     "time": null,
+     "note": null
+    }
+   ]
+  }
+ ],
+ "xiaomi-reparation": [
+  {
+   "id": "xiaomi-17t",
+   "name": "Xiaomi 17T",
+   "image": null,
+   "services": [
+    {
+     "name": "Reparation",
+     "price": null,
+     "time": "1-2 dage",
+     "note": null
+    }
+   ]
+  },
+  {
+   "id": "xiaomi-mi-note",
+   "name": "Xiaomi Mi Note",
+   "image": null,
+   "services": [
+    {
+     "name": "Reparation",
+     "price": null,
+     "time": "1-2 dage",
+     "note": null
+    }
+   ]
+  },
+  {
+   "id": "xiaomi-tablet",
+   "name": "Xiaomi Tablet",
+   "image": null,
+   "services": [
+    {
+     "name": "Reparation",
+     "price": null,
+     "time": "1-2 dage",
+     "note": null
+    }
+   ]
+  },
+  {
+   "id": "xiaomi-redmi",
+   "name": "Xiaomi Redmi",
+   "image": null,
+   "services": [
+    {
+     "name": "Reparation",
+     "price": null,
+     "time": "1-2 dage",
+     "note": null
+    }
+   ]
+  },
+  {
+   "id": "xiaomi-poco",
+   "name": "Xiaomi Poco",
+   "image": null,
+   "services": [
+    {
+     "name": "Reparation",
+     "price": null,
+     "time": "1-2 dage",
+     "note": null
+    }
+   ]
+  },
+  {
+   "id": "xiaomi-17-ultra",
+   "name": "Xiaomi 17 Ultra",
+   "image": null,
+   "services": [
+    {
+     "name": "Reparation",
+     "price": null,
+     "time": "1-2 dage",
+     "note": null
+    }
+   ]
+  },
+  {
+   "id": "xiaomi-17",
+   "name": "Xiaomi 17",
+   "image": null,
+   "services": [
+    {
+     "name": "Reparation",
+     "price": null,
+     "time": "1-2 dage",
+     "note": null
+    }
+   ]
+  },
+  {
+   "id": "xiaomi-mi",
+   "name": "Xiaomi Mi",
+   "image": null,
+   "services": [
+    {
+     "name": "Reparation",
+     "price": null,
+     "time": "1-2 dage",
+     "note": null
+    }
+   ]
+  }
+ ],
+ "oppo-reparation": [
+  {
+   "id": "oppo-reno16-pro",
+   "name": "OPPO Reno16 Pro",
+   "image": null,
+   "services": [
+    {
+     "name": "Vandskade",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Fejlsøgning",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "IC-lodning",
+     "price": null,
+     "time": null,
+     "note": null
+    }
+   ]
+  },
+  {
+   "id": "oppo-reno16-f",
+   "name": "OPPO Reno16 F",
+   "image": null,
+   "services": [
+    {
+     "name": "Batteri",
+     "price": "499 kr.",
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Bagcover (inkl. ramme)",
+     "price": "499 kr.",
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Ladestik",
+     "price": "399 kr.",
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Software",
+     "price": "199 kr.",
+     "time": null,
+     "note": null
+    }
+   ]
+  },
+  {
+   "id": "oppo-find-x9-ultra",
+   "name": "OPPO Find X9 Ultra",
+   "image": null,
+   "services": [
+    {
+     "name": "Skærm (OEM kvalitet)",
+     "price": "499 kr.",
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Skærm (original)",
+     "price": "799 kr.",
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Fjern Google-konto",
+     "price": "399 kr.",
+     "time": null,
+     "note": null
+    }
+   ]
+  },
+  {
+   "id": "oppo-find-x9-pro",
+   "name": "OPPO Find X9 Pro",
+   "image": null,
+   "services": [
+    {
+     "name": "Vandskade",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Fejlsøgning",
+     "price": null,
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "IC-lodning",
+     "price": null,
+     "time": null,
+     "note": null
+    }
+   ]
+  },
+  {
+   "id": "oppo-find-x9",
+   "name": "OPPO Find X9",
+   "image": null,
+   "services": [
+    {
+     "name": "Batteri",
+     "price": "499 kr.",
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Bagcover (inkl. ramme)",
+     "price": "499 kr.",
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Ladestik",
+     "price": "399 kr.",
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Software",
+     "price": "199 kr.",
+     "time": null,
+     "note": null
+    }
+   ]
+  },
+  {
+   "id": "oppo-find-n6",
+   "name": "OPPO Find N6",
+   "image": null,
+   "services": [
+    {
+     "name": "Skærm (OEM kvalitet)",
+     "price": "499 kr.",
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Skærm (original)",
+     "price": "799 kr.",
+     "time": null,
+     "note": null
+    },
+    {
+     "name": "Fjern Google-konto",
+     "price": "399 kr.",
+     "time": null,
+     "note": null
+    }
+   ]
+  },
+  {
+   "id": "andre-oppo-modeller",
+   "name": "Andre OPPO-modeller",
+   "image": null,
+   "services": [
+    {
+     "name": "Reparation",
+     "price": null,
+     "time": "1-2 dage",
+     "note": null
+    }
+   ]
+  }
+ ],
+ "pc-reparation": [
+  {
+   "id": "pc",
+   "name": "PC",
+   "image": null,
+   "services": [
+    {
+     "name": "Fejlsøgning",
+     "price": null,
+     "time": "20 min",
+     "note": null
+    },
+    {
+     "name": "Grafikkort",
+     "price": null,
+     "time": "2 timer",
+     "note": null
+    },
+    {
+     "name": "Strømforsyning",
+     "price": null,
+     "time": "1 time",
+     "note": null
+    },
+    {
+     "name": "Optisk drev (DVD-RW)",
+     "price": null,
+     "time": "1 time",
+     "note": null
+    },
+    {
+     "name": "WiFi-Modul",
+     "price": null,
+     "time": "1 time",
+     "note": null
+    },
+    {
+     "name": "Blæser",
+     "price": null,
+     "time": "1 time",
+     "note": null
+    },
+    {
+     "name": "Fjern kode (u. data tab)",
+     "price": null,
+     "time": "1 time",
+     "note": null
+    },
+    {
+     "name": "Slå BIOS-kode fra",
+     "price": null,
+     "time": "1 time",
+     "note": null
+    },
+    {
+     "name": "Windows-softwareinstallation",
+     "price": null,
+     "time": "1 time",
+     "note": null
+    },
+    {
+     "name": "Virus-/malwarefjernelse",
+     "price": null,
+     "time": "1 time",
+     "note": null
+    },
+    {
+     "name": "Backup af data",
+     "price": null,
+     "time": "1 dag",
+     "note": null
+    },
+    {
+     "name": "Vandskade",
+     "price": null,
+     "time": "1-3 dage",
+     "note": null
+    },
+    {
+     "name": "IC-lodning",
+     "price": null,
+     "time": "1-3 dage",
+     "note": null
+    },
+    {
+     "name": "Harddisk-udskiftning",
+     "price": null,
+     "time": "1 time",
+     "note": null
+    },
+    {
+     "name": "128 GB SSD-disk",
+     "price": null,
+     "time": "1 time",
+     "note": null
+    }
+   ]
+  }
+ ]
+}

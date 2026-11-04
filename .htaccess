@@ -1,0 +1,8 @@
+ErrorDocument 404 /404.html
+RewriteEngine On
+RewriteRule ^_private(/|$) - [F,L]
+RewriteCond %{HTTPS} off
+RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+RewriteRule ^(cart|checkout|my-account|wishlist|compare|blog|promotions|stores|outlet|delivery-return-2|apple-shopping-event|broadway-store|valencia-store|emeryville-store|alameda-store|category|tag|author|2022)(/.*)?$ / [L,R=301]
+RewriteRule ^product-category(/.*)?$ /kategorier/ [L,R=301]
+RewriteRule ^product(/.*)?$ /shop/ [L,R=301]
