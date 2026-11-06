@@ -351,6 +351,12 @@ a.card:hover { transform: translateY(-4px); box-shadow: var(--shadow); border-co
 .product-price { font-weight: 800; color: var(--black); }
 .product-out { color: var(--muted); font-size: .86rem; font-weight: 600; }
 .product .btn { width: 100%; min-height: 44px; padding: 8px 12px; font-size: .92rem; }
+.btn.whatsapp { background: #157a3f; border-color: #157a3f; color: #fff; }
+.btn.whatsapp:hover { background: #0f6232; border-color: #0f6232; }
+.btn.whatsapp .icon { width: 19px; height: 19px; }
+.product-ask { align-self: center; margin-top: 8px; padding: 4px 0; color: var(--muted); font-size: .86rem; }
+.product-ask:hover { color: var(--blue); }
+.shop-notice .icon.solid { color: #157a3f; width: 20px; height: 20px; flex: none; }
 .shop-empty { padding: 32px; background: var(--tint); border-radius: var(--radius); color: var(--muted); text-align: center; }
 .category-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 18px; }
 .category-grid.four { grid-template-columns: repeat(4, minmax(0, 1fr)); }
@@ -583,6 +589,7 @@ main:has(> .page-head:last-child) { background: var(--black); }
   .wrap { padding: 0 18px; }
   .devices { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px; }
   .products { gap: 10px; }
+  .product-ask { padding: 10px 0 4px; margin-top: 2px; }
   .product-body { padding: 12px; }
   .category-grid { grid-template-columns: minmax(0, 1fr); }
   .category-grid.four { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px; }
