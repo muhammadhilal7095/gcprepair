@@ -535,7 +535,7 @@ ${sale ? saleStrip() : ''}
     </div>
     <div class="reviews-links">
       <a class="btn outline" href="${greve.reviewUrl}" rel="noopener">Se ${esc(greve.name)} på Google</a>
-      <a class="more" href="${amager.reviewUrl}" rel="noopener">Se ${esc(amager.name)} på Trustpilot ${icon('arrow')}</a>
+      <a class="more" href="${amager.reviewUrl}" rel="noopener">Se ${esc(amager.name)} på Google ${icon('arrow')}</a>
     </div>
   </div>
   <div class="reviews" data-reveal>
