@@ -10,6 +10,13 @@ const DIST = join(ROOT, 'dist');
 const biz = JSON.parse(readFileSync(join(ROOT, 'data/business.json'), 'utf8'));
 const repairs = JSON.parse(readFileSync(join(ROOT, 'data/repairs.json'), 'utf8'));
 const shop = JSON.parse(readFileSync(join(ROOT, 'data/shop.json'), 'utf8'));
+// Version for cache busting: a hash of the files browsers cache. The data the admin
+// edits keeps it, so pages published from the admin point at the same files.
+biz.assetVersion = createHash('sha256')
+  .update(readFileSync(join(ROOT, 'src/styles.css')))
+  .update(readFileSync(join(ROOT, 'src/main.js')))
+  .update(JSON.stringify(repairs))
+  .digest('hex').slice(0, 10);
 
 rmSync(DIST, { recursive: true, force: true });
 mkdirSync(join(DIST, 'css'), { recursive: true });
@@ -23,7 +30,7 @@ cpSync(join(ROOT, 'src/main.js'), join(DIST, 'js/main.js'));
 cpSync(join(ROOT, 'server'), DIST, { recursive: true });
 cpSync(join(ROOT, 'src/render.mjs'), join(DIST, 'admin/render.mjs'));
 mkdirSync(join(DIST, '_private/data'), { recursive: true });
-cpSync(join(ROOT, 'data/business.json'), join(DIST, '_private/data/business.json'));
+writeFileSync(join(DIST, '_private/data/business.json'), `${JSON.stringify(biz, null, 2)}\n`);
 cpSync(join(ROOT, 'data/repairs.json'), join(DIST, '_private/data/repairs.json'));
 cpSync(join(ROOT, 'data/shop.json'), join(DIST, '_private/data/shop.json'));
 
