@@ -1,6 +1,6 @@
 // Admin panel. Edits the site data, renders every page in the browser with the same
 // code as the local build (src/render.mjs), and sends the result to api.php to publish.
-import { renderSite } from './render.js?v=7efd65fceb';
+import { renderSite } from './render.js?v=c3fda3049b';
 
 const BRANDS = {
   'iphone-reparation': 'iPhone', 'samsung-reparation': 'Samsung', 'huawei-reparation': 'Huawei', 'oneplus-reparation': 'OnePlus',
@@ -8,8 +8,33 @@ const BRANDS = {
   'ipad-reparation': 'iPad', 'mac-reparation': 'Mac', 'pc-reparation': 'PC', watch: 'Apple Watch',
 };
 const SOCIALS = ['Facebook', 'Instagram', 'TikTok'];
+const ICONS = {
+  megaphone: '<path d="M3 11v2a1 1 0 0 0 1 1h2l5 4V6L6 10H4a1 1 0 0 0-1 1z"/><path d="M15.5 8.5a5 5 0 0 1 0 7"/><path d="M18.5 5.5a9 9 0 0 1 0 13"/>',
+  store: '<path d="M3 9l1.5-5h15L21 9"/><path d="M3 9h18v2a3 3 0 0 1-6 0 3 3 0 0 1-6 0 3 3 0 0 1-6 0z"/><path d="M5 13v7h14v-7"/>',
+  tool: '<path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/>',
+  bag: '<path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"/><line x1="3" y1="6" x2="21" y2="6"/><path d="M16 10a4 4 0 0 1-8 0"/>',
+  star: '<polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/>',
+  plug: '<path d="M9 2v6M15 2v6M6 8h12v4a6 6 0 0 1-12 0z"/><path d="M12 18v4"/>',
+  shield: '<path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>',
+  tag: '<path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"/><line x1="7" y1="7" x2="7.01" y2="7"/>',
+  globe: '<circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/>',
+  mail: '<path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/>',
+  phone: '<path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>',
+  clock: '<circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/>',
+  external: '<path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/>',
+  logout: '<path d="M9 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h4"/><polyline points="16 17 21 12 16 7"/><line x1="21" y1="12" x2="9" y2="12"/>',
+  upload: '<path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="17 8 12 3 7 8"/><line x1="12" y1="3" x2="12" y2="15"/>',
+  user: '<path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/>',
+  photo: '<rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><polyline points="21 15 16 10 5 21"/>',
+};
+const icon = (name) => {
+  const span = document.createElement('span');
+  span.className = 'ico';
+  span.innerHTML = `<svg viewBox="0 0 24 24" aria-hidden="true">${ICONS[name] ?? ICONS.tool}</svg>`;
+  return span;
+};
 const root = document.getElementById('app');
-const state = { csrf: '', business: null, repairs: null, shop: null, smtp: null, backups: [], tab: 'notices', dirty: false, brand: 'iphone-reparation', modelSearch: '', openModel: null };
+const state = { csrf: '', business: null, repairs: null, shop: null, username: '', smtp: null, backups: [], tab: 'notices', dirty: false, brand: 'iphone-reparation', modelSearch: '', openModel: null };
 
 // ---- Helpers ----
 function h(tag, attrs = {}, ...children) {
@@ -55,7 +80,7 @@ function toast(text, ok = true) {
 const touch = () => {
   state.dirty = true;
   const s = document.querySelector('.state');
-  if (s) { s.textContent = 'Unpublished changes'; s.classList.add('dirty'); }
+  if (s) setState(s);
 };
 
 // A text input bound to obj[key]
@@ -70,11 +95,27 @@ function field(label, obj, key, { type = 'text', help, placeholder, onchange } =
   }));
 }
 
-function toggle(label, obj, key) {
-  return h('label', { class: 'check' }, h('input', { type: 'checkbox', checked: !!obj[key], onchange: (e) => { obj[key] = e.target.checked; touch(); } }), label);
+function toggle(label, obj, key, onchange) {
+  return h('label', { class: 'check' }, h('input', {
+    type: 'checkbox', role: 'switch', checked: !!obj[key],
+    onchange: (e) => { obj[key] = e.target.checked; touch(); onchange?.(e.target.checked); },
+  }), h('span', { class: 'switch', 'aria-hidden': 'true' }), label);
 }
 
-const card = (title, ...children) => h('section', { class: 'card' }, h('h2', {}, title), ...children);
+// Card icons by title; a leading description paragraph moves into the header
+const CARD_ICONS = {
+  'Announcement bar': 'megaphone', 'Special offer on the home page': 'tag', Site: 'globe', 'Repairs and prices': 'tool',
+  Products: 'bag', Categories: 'tag', 'Customer reviews': 'star', 'Email sending (SMTP)': 'mail', 'Google Search Console': 'globe',
+  'Google Analytics and Facebook Pixel': 'plug', 'Google Business Profile': 'store', 'Bing Webmaster Tools': 'globe',
+  Backups: 'clock', 'Change login': 'shield', 'Email, WhatsApp and video': 'phone',
+};
+const card = (title, ...children) => {
+  const flat = children.flat();
+  const desc = flat[0] instanceof HTMLElement && flat[0].matches('p.muted') ? flat.shift() : null;
+  return h('section', { class: 'card' },
+    h('header', { class: 'card-head' }, icon(CARD_ICONS[title] ?? 'store'), h('div', {}, h('h2', {}, title), desc)),
+    h('div', { class: 'card-body' }, ...flat));
+};
 
 function imagePicker(current, src, name, kind, onDone) {
   const img = h('img', { src: current ? src(current) : '', alt: '', hidden: !current });
@@ -99,60 +140,82 @@ function imagePicker(current, src, name, kind, onDone) {
       }
     },
   });
-  return h('div', { class: 'thumb' }, img, h('label', {}, 'Change image', h('small', {}, 'JPG, PNG or WebP, up to 5 MB'), input));
+  return h('div', { class: 'thumb' }, h('div', { class: 'thumb-img' }, img, current ? null : icon('photo')), h('label', { class: 'upload' }, icon('upload'), h('span', {}, h('b', {}, 'Change image'), h('small', {}, 'JPG, PNG or WebP, up to 5 MB')), input));
 }
 
 // ---- Login ----
 function showAuth(setup) {
+  const logo = h('img', { class: 'auth-logo', src: '../images/site/logo.png', alt: 'GCPrepair.dk' });
+  if (setup) {
+    root.replaceChildren(h('div', { class: 'auth-page' }, h('div', { class: 'auth' }, logo,
+      h('h1', {}, 'Website admin'),
+      h('p', { class: 'msg err' }, 'No admin login has been created on this server yet. Contact your web developer.'))));
+    return;
+  }
   const user = h('input', { type: 'email', autocomplete: 'username', required: true, placeholder: 'info@gcprepair.dk' });
-  const pw = h('input', { type: 'password', autocomplete: setup ? 'new-password' : 'current-password', required: true });
-  const code = h('input', { type: 'text', autocomplete: 'off', required: true });
+  const pw = h('input', { type: 'password', autocomplete: 'current-password', required: true });
   const msg = h('p', { class: 'msg err', hidden: true });
-  root.replaceChildren(h('form', {
+  const button = h('button', { class: 'btn primary block', type: 'submit' }, 'Log in');
+  root.replaceChildren(h('div', { class: 'auth-page' }, h('form', {
     class: 'auth',
     onsubmit: async (e) => {
       e.preventDefault();
       msg.hidden = true;
+      button.disabled = true;
       try {
-        const res = setup ? await api('setup', { code: code.value, username: user.value, password: pw.value }) : await api('login', { username: user.value, password: pw.value });
+        const res = await api('login', { username: user.value, password: pw.value });
         state.csrf = res.csrf;
         await loadAll();
       } catch (err) {
         msg.textContent = err.message;
         msg.hidden = false;
+        button.disabled = false;
       }
     },
   },
-  h('h1', {}, setup ? 'Create your admin login' : 'Website admin'),
-  setup && h('p', { class: 'muted' }, 'First time here. Enter the setup code from the file admin-setup-code.txt in your project folder, and choose a username and password.'),
-  setup && h('label', {}, 'Setup code', code),
+  logo,
+  h('h1', {}, 'Website admin'),
+  h('p', { class: 'muted' }, 'Log in to update your website.'),
   h('label', {}, 'Username', user),
-  h('label', {}, setup ? 'New password (at least 10 characters)' : 'Password', pw),
-  h('button', { class: 'btn primary', type: 'submit' }, setup ? 'Create login' : 'Log in'),
-  msg));
+  h('label', {}, 'Password', pw),
+  button,
+  msg)));
 }
 
 // ---- Tabs ----
 const TABS = {
-  notices: ['Notices & offer', tabNotices],
-  shops: ['Shops & hours', tabShops],
-  repairs: ['Repairs & prices', tabRepairs],
-  shop: ['Shop & categories', tabShop],
-  reviews: ['Reviews', tabReviews],
-  connections: ['Email & Google', tabConnections],
-  account: ['Backups & password', tabAccount],
+  notices: ['Notices & offer', tabNotices, 'megaphone', 'The announcement bar and the special offer on the home page.'],
+  shops: ['Shops & hours', tabShops, 'store', 'Addresses, phone numbers, opening hours and social media.'],
+  repairs: ['Repairs & prices', tabRepairs, 'tool', 'Models, repairs and prices on the repair pages.'],
+  shop: ['Shop & categories', tabShop, 'bag', 'Products for sale and their categories.'],
+  reviews: ['Reviews', tabReviews, 'star', 'Customer reviews on the home page.'],
+  connections: ['Email & Google', tabConnections, 'plug', 'Email sending, Google and visitor statistics.'],
+  account: ['Backups & password', tabAccount, 'shield', 'Earlier versions of the site and your login.'],
 };
 
 function tabNotices() {
   const { announcement: a, campaign: c, business } = { ...state.business, business: state.business };
+  const barPreview = h('div', { class: 'bar-preview', 'aria-label': 'Preview' });
+  const offerPreview = h('div', { class: 'offer-preview', 'aria-label': 'Preview' });
+  function drawPreviews() {
+    const phones = business.shops.map((s) => `${s.short}: ${s.phoneDisplay}`).join('   •   ');
+    barPreview.replaceChildren(h('span', { class: 'preview-label' }, a.enabled ? 'Preview' : 'Hidden'), h('span', { class: 'bar-text' }, `${a.text || 'Your message'}   •   ${phones}`));
+    barPreview.classList.toggle('off', !a.enabled);
+    offerPreview.replaceChildren(h('strong', {}, `−${c.percent || 0}%`), h('span', {}, c.name || 'Offer'));
+    offerPreview.classList.toggle('off', !c.enabled);
+  }
+  drawPreviews();
   return [
     card('Announcement bar', h('p', { class: 'muted' }, 'The scrolling blue bar at the top of every page. Both shop phone numbers are added to it automatically.'),
-      toggle('Show the announcement bar', a, 'enabled'),
-      field('Message', a, 'text'),
+      barPreview,
+      toggle('Show the announcement bar', a, 'enabled', drawPreviews),
+      field('Message', a, 'text', { onchange: drawPreviews }),
     ),
     card('Special offer on the home page', h('p', { class: 'muted' }, 'When on, the home page shows the offer heading, sticker and scrolling strip. Turn it off when the sale ends.'),
-      toggle('Show the offer', c, 'enabled'),
-      h('div', { class: 'grid2' }, field('Offer name', c, 'name'), field('Discount (%)', c, 'percent', { type: 'number' })),
+      h('div', { class: 'offer-row' }, offerPreview, h('div', {},
+        toggle('Show the offer', c, 'enabled', drawPreviews),
+        h('div', { class: 'grid2' }, field('Offer name', c, 'name', { onchange: drawPreviews }), field('Discount (%)', c, 'percent', { type: 'number', onchange: drawPreviews })),
+      )),
     ),
     card('Site', field('Website address', business, 'domain', { type: 'url', help: 'Used in Google links and the sitemap, with no slash at the end.' })),
   ];
@@ -452,9 +515,7 @@ async function publish(btn) {
     const res = await api('publish', { business: state.business, repairs: state.repairs, shop: state.shop, files });
     state.backups = res.backups;
     state.dirty = false;
-    const s = document.querySelector('.state');
-    s.textContent = 'All changes are live';
-    s.classList.remove('dirty');
+    setState(document.querySelector('.state'));
     toast('Published! Your changes are live.');
   } catch (e) {
     toast(`Not published: ${e.message}`, false);
@@ -463,24 +524,43 @@ async function publish(btn) {
   btn.textContent = 'Publish changes';
 }
 
+function setState(el) {
+  el.className = `state${state.dirty ? ' dirty' : ''}`;
+  el.lastChild.textContent = state.dirty ? 'Unpublished changes' : 'All changes are live';
+}
+
 function show() {
-  const tabs = Object.entries(TABS).map(([key, [label]]) => h('button', { type: 'button', class: state.tab === key ? 'on' : null, onclick: () => { state.tab = key; show(); } }, label));
-  root.replaceChildren(
-    h('header', { class: 'top' },
-      h('h1', {}, 'Website admin'),
-      h('a', { href: '../', target: '_blank', rel: 'noopener' }, 'View site'),
-      h('span', { class: 'spacer' }),
-      h('span', { class: `state${state.dirty ? ' dirty' : ''}` }, state.dirty ? 'Unpublished changes' : 'All changes are live'),
-      h('button', { class: 'btn primary', type: 'button', onclick: (e) => publish(e.target) }, 'Publish changes'),
-      h('button', { class: 'btn', type: 'button', onclick: async () => {
-        if (state.dirty && !confirm('You have unpublished changes. Log out anyway?')) return;
-        await api('logout', {}).catch(() => {});
-        state.dirty = false;
-        location.reload();
-      } }, 'Log out'),
+  const [title, render, , subtitle] = TABS[state.tab];
+  const tabs = Object.entries(TABS).map(([key, [label, , ic]]) => h('button', {
+    type: 'button', class: state.tab === key ? 'on' : null, 'aria-current': state.tab === key ? 'page' : null,
+    onclick: () => { state.tab = key; show(); scrollTo(0, 0); },
+  }, icon(ic), h('span', {}, label)));
+  const status = h('span', { class: 'state' }, h('span', { class: 'dot', 'aria-hidden': 'true' }), h('span'));
+  setState(status);
+  root.replaceChildren(h('div', { class: 'shell' },
+    h('aside', { class: 'side' },
+      h('a', { class: 'brand', href: '../', target: '_blank', rel: 'noopener' }, h('img', { src: '../images/site/logo.png', alt: 'GCPrepair.dk' }), h('span', {}, 'Admin')),
+      h('nav', { class: 'tabs', 'aria-label': 'Sections' }, tabs),
+      h('div', { class: 'side-foot' },
+        h('a', { class: 'side-link', href: '../', target: '_blank', rel: 'noopener' }, icon('external'), h('span', {}, 'View website')),
+        state.username && h('div', { class: 'who' }, icon('user'), h('span', {}, state.username)),
+        h('button', { class: 'side-link', type: 'button', onclick: async () => {
+          if (state.dirty && !confirm('You have unpublished changes. Log out anyway?')) return;
+          await api('logout', {}).catch(() => {});
+          state.dirty = false;
+          location.reload();
+        } }, icon('logout'), h('span', {}, 'Log out')),
+      ),
     ),
-    h('div', { class: 'layout' }, h('nav', { class: 'tabs', 'aria-label': 'Sections' }, tabs), h('main', { class: 'panel' }, TABS[state.tab][1]())),
-  );
+    h('div', { class: 'main' },
+      h('header', { class: 'top' },
+        h('div', { class: 'top-title' }, h('h1', {}, title), h('p', {}, subtitle)),
+        status,
+        h('button', { class: 'btn primary', type: 'button', onclick: (e) => publish(e.currentTarget) }, 'Publish changes'),
+      ),
+      h('main', { class: 'panel' }, render()),
+    ),
+  ));
 }
 
 async function loadAll() {
@@ -490,6 +570,7 @@ async function loadAll() {
   state.shop = d.shop?.categories ? d.shop : { categories: [], products: [] };
   state.smtp = d.smtp;
   state.backups = d.backups;
+  state.username = d.username ?? '';
   state.business.integrations ??= {};
   show();
 }
@@ -503,6 +584,6 @@ addEventListener('beforeunload', (e) => { if (state.dirty) e.preventDefault(); }
     if (s.loggedIn) await loadAll();
     else showAuth(s.setupNeeded);
   } catch (e) {
-    root.replaceChildren(h('div', { class: 'auth' }, h('h1', {}, 'Website admin'), h('p', { class: 'msg err' }, e.message)));
+    root.replaceChildren(h('div', { class: 'auth-page' }, h('div', { class: 'auth' }, h('h1', {}, 'Website admin'), h('p', { class: 'msg err' }, e.message))));
   }
 })();
