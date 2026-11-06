@@ -3,6 +3,8 @@
 export function renderSite(biz, repairs, shop) {
   const files = new Map();
   const [greve, amager] = biz.shops;
+  // Changes whenever the stylesheet or scripts change, so browsers never use an old cached copy
+  const assetQuery = biz.assetVersion ? `?v=${biz.assetVersion}` : '';
 
 const esc = (s) => String(s).replace(/[&<>"]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' })[c]);
 const mapsUrl = (s) => `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(`${s.street}, ${s.postal} ${s.city}, Denmark`)}`;
@@ -194,7 +196,7 @@ function page({ path, title, description, current, body, extraHead = '', extraSc
 <meta name="theme-color" content="#0b0d12">
 <link rel="icon" href="${root}images/site/favicon.png">
 <link rel="preload" href="${root}fonts/manrope.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="stylesheet" href="${root}css/styles.css">
+<link rel="stylesheet" href="${root}css/styles.css${assetQuery}">
 ${extraHead}${integrationTags}
 </head>
 <body>
@@ -205,7 +207,7 @@ ${body(root)}
 </main>
 ${footer(root)}
 ${extraScripts.replaceAll('{root}', root)}
-<script src="${root}js/main.js"></script>
+<script src="${root}js/main.js${assetQuery}"></script>
 </body>
 </html>
 `;
@@ -413,7 +415,7 @@ page({
   title: 'GCPrepair.dk | Mobil-, tablet- og computerreparation i Greve og på Amagerbro',
   description: 'Hurtig og pålidelig reparation af iPhone, Samsung, iPad, Mac, PC og Apple Watch. Butikker i Greve Midtby Center og på Amagerbrogade 144.',
   extraHead: schema,
-  extraScripts: '<script src="{root}js/devices.js"></script>',
+  extraScripts: `<script src="{root}js/devices.js${assetQuery}"></script>`,
   body: (root) => `
 <section class="hero${sale ? ' sale' : ''}"><div class="wrap">
   <div>
