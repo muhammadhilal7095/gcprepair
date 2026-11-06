@@ -15,6 +15,9 @@ const shop = JSON.parse(readFileSync(join(ROOT, 'data/shop.json'), 'utf8'));
 biz.assetVersion = createHash('sha256')
   .update(readFileSync(join(ROOT, 'src/styles.css')))
   .update(readFileSync(join(ROOT, 'src/main.js')))
+  .update(readFileSync(join(ROOT, 'src/render.mjs')))
+  .update(readFileSync(join(ROOT, 'server/admin/app.js')))
+  .update(readFileSync(join(ROOT, 'server/admin/admin.css')))
   .update(JSON.stringify(repairs))
   .digest('hex').slice(0, 10);
 
@@ -28,7 +31,15 @@ cpSync(join(ROOT, 'src/main.js'), join(DIST, 'js/main.js'));
 
 // Admin panel, contact form and the data they edit
 cpSync(join(ROOT, 'server'), DIST, { recursive: true });
-cpSync(join(ROOT, 'src/render.mjs'), join(DIST, 'admin/render.mjs'));
+// The admin loads the page templates as a browser module. Served as .js because some hosts
+// (Hostinger) send .mjs as text/plain, which browsers refuse to run as a module.
+cpSync(join(ROOT, 'src/render.mjs'), join(DIST, 'admin/render.js'));
+const adminApp = readFileSync(join(ROOT, 'server/admin/app.js'), 'utf8');
+if (!adminApp.includes("from './render.js'")) throw new Error('admin/app.js must import ./render.js');
+writeFileSync(join(DIST, 'admin/app.js'), adminApp.replace("from './render.js'", `from './render.js?v=${biz.assetVersion}'`));
+writeFileSync(join(DIST, 'admin/index.html'), readFileSync(join(ROOT, 'server/admin/index.html'), 'utf8')
+  .replace('href="admin.css"', `href="admin.css?v=${biz.assetVersion}"`)
+  .replace('src="app.js"', `src="app.js?v=${biz.assetVersion}"`));
 mkdirSync(join(DIST, '_private/data'), { recursive: true });
 writeFileSync(join(DIST, '_private/data/business.json'), `${JSON.stringify(biz, null, 2)}\n`);
 cpSync(join(ROOT, 'data/repairs.json'), join(DIST, '_private/data/repairs.json'));
@@ -48,6 +59,7 @@ for (const [path, content] of renderSite(biz, repairs, shop)) {
 // Old WordPress/WooCommerce demo URLs go to the home page
 const OLD = ['cart', 'checkout', 'my-account', 'wishlist', 'compare', 'blog', 'promotions', 'stores', 'outlet', 'delivery-return-2', 'apple-shopping-event', 'broadway-store', 'valencia-store', 'emeryville-store', 'alameda-store', 'category', 'tag', 'author', '2022'];
 writeFileSync(join(DIST, '.htaccess'), `ErrorDocument 404 /404.html
+AddType text/javascript .js .mjs
 RewriteEngine On
 RewriteRule ^_private(/|$) - [F,L]
 RewriteCond %{HTTPS} off

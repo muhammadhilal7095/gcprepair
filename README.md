@@ -17,7 +17,7 @@ First visit: create a password using the code in `admin-setup-code.txt`. Only it
 - `data/*.json`: starting content (`shop.json` holds the shop's categories and products). After launch the live copy is `_private/data/` on the server.
 - `src/render.mjs`: all page templates, used by both the local build and the admin panel.
 - `src/styles.css`, `src/main.js`: styling and behaviour of the public site.
-- `server/admin/`: admin interface (`app.js`) and API (`api.php`).
+- `server/admin/`: admin interface (`app.js`) and API (`api.php`). The build copies `src/render.mjs` in as `admin/render.js`.
 - `server/contact.php`: contact form. Without SMTP settings the form opens the visitor's mail app.
 - `server/_private/`: shared PHP helpers. Passwords and SMTP login are stored here in `secrets.php`, blocked from the web.
 - `public/`: images and font, copied as is.
