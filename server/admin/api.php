@@ -172,6 +172,7 @@ try {
                 'repairs' => read_json(DATA_DIR . '/repairs.json'),
                 'shop' => read_json(DATA_DIR . '/shop.json'),
                 'smtp' => public_smtp($secrets),
+                'username' => (string) ($secrets['username'] ?? ''),
                 'backups' => list_backups(),
             ]);
 
