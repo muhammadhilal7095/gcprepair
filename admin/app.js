@@ -187,9 +187,10 @@ function tabShops() {
         }));
       }),
     )),
-    card('Email addresses and video',
+    card('Email, WhatsApp and video',
       h('div', { class: 'grid2' }, b.emails.map((_, i) => field(i ? 'Second email' : 'Main email', b.emails, i, { type: 'email' }))),
       field('YouTube link', b, 'youtube', { type: 'url' }),
+      (b.whatsapp ??= { number: '' }, field('WhatsApp number for shop orders', b.whatsapp, 'number', { help: 'With country code, like +4591921420. Leave empty to hide the WhatsApp buttons.' })),
     ),
   ];
 }
