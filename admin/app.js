@@ -1,6 +1,6 @@
 // Admin panel. Edits the site data, renders every page in the browser with the same
 // code as the local build (src/render.mjs), and sends the result to api.php to publish.
-import { renderSite } from './render.js?v=c3fda3049b';
+import { renderSite } from './render.js?v=d82387be8f';
 
 const BRANDS = {
   'iphone-reparation': 'iPhone', 'samsung-reparation': 'Samsung', 'huawei-reparation': 'Huawei', 'oneplus-reparation': 'OnePlus',
@@ -146,16 +146,11 @@ function imagePicker(current, src, name, kind, onDone) {
 // ---- Login ----
 function showAuth(setup) {
   const logo = h('img', { class: 'auth-logo', src: '../images/site/logo.png', alt: 'GCPrepair.dk' });
-  if (setup) {
-    root.replaceChildren(h('div', { class: 'auth-page' }, h('div', { class: 'auth' }, logo,
-      h('h1', {}, 'Website admin'),
-      h('p', { class: 'msg err' }, 'No admin login has been created on this server yet. Contact your web developer.'))));
-    return;
-  }
+  const code = h('input', { type: 'text', autocomplete: 'off', required: true, spellcheck: 'false' });
   const user = h('input', { type: 'email', autocomplete: 'username', required: true, placeholder: 'info@gcprepair.dk' });
-  const pw = h('input', { type: 'password', autocomplete: 'current-password', required: true });
+  const pw = h('input', { type: 'password', autocomplete: setup ? 'new-password' : 'current-password', required: true });
   const msg = h('p', { class: 'msg err', hidden: true });
-  const button = h('button', { class: 'btn primary block', type: 'submit' }, 'Log in');
+  const button = h('button', { class: 'btn primary block', type: 'submit' }, setup ? 'Create login' : 'Log in');
   root.replaceChildren(h('div', { class: 'auth-page' }, h('form', {
     class: 'auth',
     onsubmit: async (e) => {
@@ -163,7 +158,9 @@ function showAuth(setup) {
       msg.hidden = true;
       button.disabled = true;
       try {
-        const res = await api('login', { username: user.value, password: pw.value });
+        const res = setup
+          ? await api('setup', { code: code.value, username: user.value, password: pw.value })
+          : await api('login', { username: user.value, password: pw.value });
         state.csrf = res.csrf;
         await loadAll();
       } catch (err) {
@@ -174,10 +171,12 @@ function showAuth(setup) {
     },
   },
   logo,
-  h('h1', {}, 'Website admin'),
-  h('p', { class: 'muted' }, 'Log in to update your website.'),
+  h('h1', {}, setup ? 'Create your admin login' : 'Website admin'),
+  // Only shown while the server has no login, for example after its files were reinstalled
+  h('p', { class: 'muted' }, setup ? 'This server has no admin login yet. Enter the setup code from admin-setup-code.txt and choose your username and password.' : 'Log in to update your website.'),
+  setup && h('label', {}, 'Setup code', code),
   h('label', {}, 'Username', user),
-  h('label', {}, 'Password', pw),
+  h('label', {}, setup ? 'Password (at least 10 characters)' : 'Password', pw),
   button,
   msg)));
 }
@@ -198,7 +197,7 @@ function tabNotices() {
   const barPreview = h('div', { class: 'bar-preview', 'aria-label': 'Preview' });
   const offerPreview = h('div', { class: 'offer-preview', 'aria-label': 'Preview' });
   function drawPreviews() {
-    const phones = business.shops.map((s) => `${s.short}: ${s.phoneDisplay}`).join('   •   ');
+    const phones = business.shops.map((s) => `${s.name}: ${s.phoneDisplay}`).join('   •   ');
     barPreview.replaceChildren(h('span', { class: 'preview-label' }, a.enabled ? 'Preview' : 'Hidden'), h('span', { class: 'bar-text' }, `${a.text || 'Your message'}   •   ${phones}`));
     barPreview.classList.toggle('off', !a.enabled);
     offerPreview.replaceChildren(h('strong', {}, `−${c.percent || 0}%`), h('span', {}, c.name || 'Offer'));
@@ -226,8 +225,8 @@ function tabShops() {
   return [
     ...b.shops.map((s) => card(s.name || 'Shop',
       h('div', { class: 'grid2' },
-        field('Shop name', s, 'name'), field('Short name', s, 'short', { help: 'Used on buttons, like "Ring Greve".' }),
-        field('Street', s, 'street'), field('Company line', s, 'legalLine', { help: 'Optional, like Zeenat Telecom.' }),
+        field('Shop name', s, 'name', { help: 'Shown everywhere on the site, like on the call buttons.' }), field('Company line', s, 'legalLine', { help: 'Optional, like Zeenat Telecom.' }),
+        field('Street', s, 'street'), h('span'),
         field('Postal code', s, 'postal'), field('City', s, 'city'),
         field('Phone for calling', s, 'phone', { help: 'With country code and no spaces: +4591921420' }), field('Phone as shown', s, 'phoneDisplay', { help: 'Like 91 92 14 20' }),
         field('Review link', s, 'reviewUrl', { type: 'url' }), field('Review link text', s, 'reviewLabel'),

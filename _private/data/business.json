@@ -73,7 +73,7 @@
     {
       "id": "amager",
       "short": "Amagerbro",
-      "name": "iTelefix",
+      "name": "iTelefix Amagerbrogade 144",
       "legalLine": "",
       "street": "Amagerbrogade 144",
       "postal": "2300",
@@ -169,5 +169,5 @@
   "whatsapp": {
     "number": "+4591921420"
   },
-  "assetVersion": "c3fda3049b"
+  "assetVersion": "d82387be8f"
 }
