@@ -104,6 +104,7 @@ function imagePicker(current, src, name, kind, onDone) {
 
 // ---- Login ----
 function showAuth(setup) {
+  const user = h('input', { type: 'email', autocomplete: 'username', required: true, placeholder: 'info@gcprepair.dk' });
   const pw = h('input', { type: 'password', autocomplete: setup ? 'new-password' : 'current-password', required: true });
   const code = h('input', { type: 'text', autocomplete: 'off', required: true });
   const msg = h('p', { class: 'msg err', hidden: true });
@@ -113,7 +114,7 @@ function showAuth(setup) {
       e.preventDefault();
       msg.hidden = true;
       try {
-        const res = setup ? await api('setup', { code: code.value, password: pw.value }) : await api('login', { password: pw.value });
+        const res = setup ? await api('setup', { code: code.value, username: user.value, password: pw.value }) : await api('login', { username: user.value, password: pw.value });
         state.csrf = res.csrf;
         await loadAll();
       } catch (err) {
@@ -122,11 +123,12 @@ function showAuth(setup) {
       }
     },
   },
-  h('h1', {}, setup ? 'Create your admin password' : 'Website admin'),
-  setup && h('p', { class: 'muted' }, 'First time here. Enter the setup code from the file admin-setup-code.txt in your project folder, and choose a password.'),
+  h('h1', {}, setup ? 'Create your admin login' : 'Website admin'),
+  setup && h('p', { class: 'muted' }, 'First time here. Enter the setup code from the file admin-setup-code.txt in your project folder, and choose a username and password.'),
   setup && h('label', {}, 'Setup code', code),
+  h('label', {}, 'Username', user),
   h('label', {}, setup ? 'New password (at least 10 characters)' : 'Password', pw),
-  h('button', { class: 'btn primary', type: 'submit' }, setup ? 'Create password' : 'Log in'),
+  h('button', { class: 'btn primary', type: 'submit' }, setup ? 'Create login' : 'Log in'),
   msg));
 }
 
@@ -411,6 +413,7 @@ function tabConnections() {
 function tabAccount() {
   const current = h('input', { type: 'password', autocomplete: 'current-password' });
   const next = h('input', { type: 'password', autocomplete: 'new-password' });
+  const newUser = h('input', { type: 'email', autocomplete: 'username', placeholder: 'Leave empty to keep it' });
   const backups = state.backups;
   return [
     card('Backups', h('p', { class: 'muted' }, 'A copy is saved each time you publish, keeping the last 15. Loading one lets you check it, then press Publish to make it live.'),
@@ -429,12 +432,13 @@ function tabAccount() {
         },
       }, 'Load')))))) : h('p', {}, 'No backups yet. The first one is made when you publish.'),
     ),
-    card('Change password',
-      h('label', {}, 'Current password', current),
-      h('label', {}, 'New password (at least 10 characters)', next),
+    card('Change login',
+      h('label', {}, 'Current password', h('small', {}, 'Needed for any change.'), current),
+      h('label', {}, 'New username', newUser),
+      h('label', {}, 'New password (at least 10 characters)', h('small', {}, 'Leave empty to keep it.'), next),
       h('button', { class: 'btn', type: 'button', onclick: async () => {
-        try { await api('password', { current: current.value, new: next.value }); current.value = ''; next.value = ''; toast('Password changed.'); } catch (e) { toast(e.message, false); }
-      } }, 'Change password'),
+        try { await api('password', { current: current.value, username: newUser.value, new: next.value }); current.value = ''; next.value = ''; newUser.value = ''; toast('Login changed.'); } catch (e) { toast(e.message, false); }
+      } }, 'Save login'),
     ),
   ];
 }

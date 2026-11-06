@@ -54,6 +54,22 @@ function require_password_rules(string $password): void
     }
 }
 
+function clean_username(string $username): string
+{
+    $username = strtolower(one_line($username));
+    if ($username === '' || strlen($username) > 200) {
+        fail('Please enter a username, like your email address.');
+    }
+    return $username;
+}
+
+// The stored username, or '' for logins created before usernames existed
+function username_matches(array $secrets, string $given): bool
+{
+    $stored = (string) ($secrets['username'] ?? '');
+    return $stored === '' || hash_equals($stored, strtolower(one_line($given)));
+}
+
 function log_in(): void
 {
     session_regenerate_id(true);
@@ -72,7 +88,9 @@ if ($action === 'setup') {
     if (!is_string($expected) || $expected === '' || !hash_equals($expected, hash('sha256', trim((string) ($input['code'] ?? ''))))) {
         fail('That setup code is not correct.', 403);
     }
+    $username = clean_username((string) ($input['username'] ?? ''));
     require_password_rules((string) ($input['password'] ?? ''));
+    $secrets['username'] = $username;
     $secrets['password_hash'] = password_hash((string) $input['password'], PASSWORD_DEFAULT);
     save_secrets($secrets);
     clear_rate_limit('login');
@@ -87,8 +105,10 @@ if ($action === 'login') {
     if (!rate_limit('login', 5, 900)) {
         fail('Too many attempts. Try again in 15 minutes.', 429);
     }
-    if (!password_verify((string) ($input['password'] ?? ''), (string) $secrets['password_hash'])) {
-        fail('Wrong password.', 403);
+    // Check both before answering, so the reply never reveals which one was wrong
+    $passwordOk = password_verify((string) ($input['password'] ?? ''), (string) $secrets['password_hash']);
+    if (!$passwordOk || !username_matches($secrets, (string) ($input['username'] ?? ''))) {
+        fail('Wrong username or password.', 403);
     }
     clear_rate_limit('login');
     log_in();
@@ -254,8 +274,13 @@ try {
             if (!password_verify((string) ($input['current'] ?? ''), (string) $secrets['password_hash'])) {
                 fail('The current password is wrong.', 403);
             }
-            require_password_rules((string) ($input['new'] ?? ''));
-            $secrets['password_hash'] = password_hash((string) $input['new'], PASSWORD_DEFAULT);
+            if (($input['username'] ?? '') !== '') {
+                $secrets['username'] = clean_username((string) $input['username']);
+            }
+            if (($input['new'] ?? '') !== '') {
+                require_password_rules((string) $input['new']);
+                $secrets['password_hash'] = password_hash((string) $input['new'], PASSWORD_DEFAULT);
+            }
             save_secrets($secrets);
             json_out(['ok' => true]);
 
