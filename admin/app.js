@@ -1,6 +1,6 @@
 // Admin panel. Edits the site data, renders every page in the browser with the same
-// code as the local build (render.mjs), and sends the result to api.php to publish.
-import { renderSite } from './render.mjs';
+// code as the local build (src/render.mjs), and sends the result to api.php to publish.
+import { renderSite } from './render.js?v=a77a8ec42b';
 
 const BRANDS = {
   'iphone-reparation': 'iPhone', 'samsung-reparation': 'Samsung', 'huawei-reparation': 'Huawei', 'oneplus-reparation': 'OnePlus',

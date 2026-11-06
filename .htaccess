@@ -1,4 +1,5 @@
 ErrorDocument 404 /404.html
+AddType text/javascript .js .mjs
 RewriteEngine On
 RewriteRule ^_private(/|$) - [F,L]
 RewriteCond %{HTTPS} off
