@@ -50,7 +50,7 @@ const modelCount = (slug) => (slug === 'pc-reparation' ? `${repairs[slug][0].ser
 
 // ---- Layout ----
 function callButtons(root, cls = 'btn outline') {
-  return biz.shops.map((s) => `<a class="${cls}" href="tel:${s.phone}">${icon('phone')}Ring ${esc(s.short)}</a>`).join('');
+  return biz.shops.map((s) => `<a class="${cls}" href="tel:${s.phone}">${icon('phone')}<span>Ring ${esc(s.name)}</span></a>`).join('');
 }
 
 function header(root, current) {
@@ -59,7 +59,7 @@ function header(root, current) {
     const tab = hidden ? ' tabindex="-1"' : '';
     return [
       `<a href="${root}${biz.announcement.link}/"${tab}>${esc(biz.announcement.text)}</a>`,
-      ...biz.shops.map((s) => `<a href="tel:${s.phone}"${tab}>${icon('phone')}${esc(s.short)}: ${s.phoneDisplay}</a>`),
+      ...biz.shops.map((s) => `<a href="tel:${s.phone}"${tab}>${icon('phone')}${esc(s.name)}: ${s.phoneDisplay}</a>`),
     ].map((item) => `${item}<span class="announcement-dot" aria-hidden="true"></span>`).join('');
   };
   // Enough repeats to fill wide screens; the second half makes the loop seamless
@@ -68,7 +68,7 @@ function header(root, current) {
     ? `<div class="announcement" role="region" aria-label="Nyheder"><div class="announcement-track">${noticeRepeats(false)}${noticeRepeats(true)}</div></div>`
     : '';
   return `${notice}<div class="topbar"><div class="wrap">
-  <ul>${biz.shops.map((s) => `<li>${icon('pin')}<span class="topbar-street">${esc(s.street)}</span><span class="topbar-short">${esc(s.short)}</span><a href="tel:${s.phone}">${s.phoneDisplay}</a></li>`).join('')}</ul>
+  <ul>${biz.shops.map((s) => `<li>${icon('pin')}<span class="topbar-street">${esc(s.name)}</span><span class="topbar-short">${esc(s.name)}</span><a href="tel:${s.phone}">${s.phoneDisplay}</a></li>`).join('')}</ul>
   <ul class="topbar-mail"><li>${icon('mail')}<a href="mailto:${biz.emails[0]}">${biz.emails[0]}</a></li></ul>
 </div></div>
 <header class="header"><div class="wrap">
@@ -106,7 +106,7 @@ function footer(root) {
     <div class="footer-shop-head">
       <img src="${root}images/site/${s.image}" width="1000" height="1000" loading="lazy" alt="">
       <div>
-        <span class="footer-area">${esc(s.short)}${s.legalLine ? ` · ${esc(s.legalLine)}` : ''}</span>
+        <span class="footer-area">${esc(s.city)}${s.legalLine ? ` · ${esc(s.legalLine)}` : ''}</span>
         <h3>${esc(s.name)}</h3>
       </div>
     </div>
@@ -123,7 +123,7 @@ function footer(root) {
       <p>Ring, eller kig forbi en af vores butikker. Du er velkommen uden aftale.</p>
     </div>
     <div class="footer-cta-calls">
-      ${biz.shops.map((s) => `<a href="tel:${s.phone}">${icon('phone')}<span><small>Ring ${esc(s.short)}</small>${s.phoneDisplay}</span></a>`).join('')}
+      ${biz.shops.map((s) => `<a href="tel:${s.phone}">${icon('phone')}<span><small>Ring ${esc(s.name)}</small>${s.phoneDisplay}</span></a>`).join('')}
     </div>
   </div>
   <div class="footer-brand">
@@ -156,7 +156,7 @@ function footer(root) {
   <div class="footer-end">
     <p>© ${new Date().getFullYear()} gcprepair.dk${hasTracking ? ' · <button class="link-button" type="button" data-cookie-settings>Cookie-indstillinger</button>' : ''}</p>
     <div class="footer-socials">
-      ${biz.shops.map((s) => `<div class="footer-social"><span>${esc(s.short)}</span>${s.social.map(([n, u]) => socialLink(n, u, s.short)).join('')}${s.id === 'greve' ? socialLink('YouTube', biz.youtube, 'video') : ''}</div>`).join('')}
+      ${biz.shops.map((s) => `<div class="footer-social"><span>${esc(s.name)}</span>${s.social.map(([n, u]) => socialLink(n, u, s.name)).join('')}${s.id === 'greve' ? socialLink('YouTube', biz.youtube, 'video') : ''}</div>`).join('')}
     </div>
   </div>
 </div></footer>
@@ -246,7 +246,7 @@ function shopCard(root, s) {
   return `<article class="shop">
   <div class="shop-photo"><img src="${root}images/site/${s.image}" width="1000" height="1000" loading="lazy" alt="${esc(s.name)}, ${esc(s.street)}"></div>
   <div class="shop-info">
-    <span class="eyebrow">${esc(s.short)}</span>
+    <span class="eyebrow">${esc(s.city)}</span>
     <h3>${esc(s.name)}</h3>
     ${s.legalLine ? `<p class="shop-legal">${esc(s.legalLine)}</p>` : ''}
     <p class="shop-addr">${icon('pin')}<span>${esc(address(s))}</span></p>
@@ -471,7 +471,7 @@ ${sale ? saleStrip() : ''}
   <div class="why-head">
     <span class="eyebrow">Hvorfor os</span>
     <h2>Hvorfor vælge os til din reparation?</h2>
-    <p class="lead">Greve Cell Phone &amp; PC Repair og iTelefix tilbyder hurtig og pålidelig reparation med erfarne teknikere.</p>
+    <p class="lead">${esc(greve.name)} og ${esc(amager.name)} tilbyder hurtig og pålidelig reparation med erfarne teknikere.</p>
   </div>
   <figure class="why-photo" data-reveal>
     <img src="${root}images/site/work-3.jpg" loading="lazy" alt="Tekniker arbejder ved reparationsbordet på værkstedet">
@@ -534,8 +534,8 @@ ${sale ? saleStrip() : ''}
       <div>${STARS}<span>Udvalgte anmeldelser fra Google</span></div>
     </div>
     <div class="reviews-links">
-      <a class="btn outline" href="${greve.reviewUrl}" rel="noopener">Se Greve på Google</a>
-      <a class="more" href="${amager.reviewUrl}" rel="noopener">Se iTelefix på Trustpilot ${icon('arrow')}</a>
+      <a class="btn outline" href="${greve.reviewUrl}" rel="noopener">Se ${esc(greve.name)} på Google</a>
+      <a class="more" href="${amager.reviewUrl}" rel="noopener">Se ${esc(amager.name)} på Trustpilot ${icon('arrow')}</a>
     </div>
   </div>
   <div class="reviews" data-reveal>
@@ -750,7 +750,7 @@ page({
   path: 'our-contacts',
   current: 'contact',
   title: 'Kontakt | GCPrepair.dk',
-  description: 'Kontakt Greve Cell Phone & PC Repair i Greve Midtby Center eller iTelefix på Amagerbrogade 144. Telefon, e-mail og åbningstider.',
+  description: `Kontakt ${greve.name} i ${greve.street} eller ${amager.name}. Telefon, e-mail og åbningstider.`,
   extraHead: schema,
   body: (root) => `${pageHead(root, 'Kontakt os', 'Ring, skriv, eller kig forbi en af vores butikker.')}
 <section class="section"><div class="wrap">
@@ -761,13 +761,13 @@ page({
     <div class="contact-aside">
       <h2>Skriv til os</h2>
       <p>Fortæl os, hvilken enhed du har, og hvad der er galt.</p>
-      <ul class="contact-lines">${biz.emails.map((e) => `<li>${icon('mail')}<a href="mailto:${e}">${e}</a></li>`).join('')}${biz.shops.map((s) => `<li>${icon('phone')}<a href="tel:${s.phone}">${esc(s.short)}: +45 ${s.phoneDisplay}</a></li>`).join('')}</ul>
+      <ul class="contact-lines">${biz.emails.map((e) => `<li>${icon('mail')}<a href="mailto:${e}">${e}</a></li>`).join('')}${biz.shops.map((s) => `<li>${icon('phone')}<a href="tel:${s.phone}">${esc(s.name)}: +45 ${s.phoneDisplay}</a></li>`).join('')}</ul>
     </div>
     <form class="form" data-mail-form data-to="${biz.emails[0]}" data-endpoint="${root}contact.php">
       <label class="form-trap" aria-hidden="true">Lad dette felt være tomt<input name="website" tabindex="-1" autocomplete="off"></label>
       <label>Dit navn<input name="name" required autocomplete="name"></label>
       <label>Din e-mail<input name="email" type="email" required autocomplete="email"></label>
-      <label>Butik<select name="shop">${biz.shops.map((s) => `<option>${esc(s.short)}</option>`).join('')}</select></label>
+      <label>Butik<select name="shop">${biz.shops.map((s) => `<option>${esc(s.name)}</option>`).join('')}</select></label>
       <label>Emne<input name="subject" required placeholder="F.eks. iPhone 14, ny skærm"></label>
       <label>Din besked<textarea name="message"></textarea></label>
       <button class="btn primary" type="submit">${icon('mail')}Send besked</button>
